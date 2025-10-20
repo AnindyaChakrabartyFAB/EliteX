@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+.envAzure/
+venv/
+
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+*.log
+logs/
+latest_run.log
+database_export.log
+
+# Database
+*.sql
+*.sql.zip
+*.db
+*.sqlite
+*.sqlite3
+
+# CSV files with potentially sensitive data
+*.csv
+clients_with_*.csv
+unique_client_ids*.csv
+unique_client_ids*.txt
+
+# Excel files with client data
+data/*.xlsx
+Output/**/*.xlsx
+EliteX_Data_Quality*.xlsx
+
+# Output files (JSON reports contain client data)
+Output/**/*.json
+Output/**/*.txt
+temp_output.txt
+test_*.txt
+elitex_pid.txt
+
+# Environment variables and secrets
+.env
+.env.local
+*.pem
+*.key
+config.json
+secrets.json
+
+# Backup files
+*.backup
+*.bak
+*~
+*.pyV2
+*.Old.py
+*_backup.py
+
+# Reports and analysis
+*.md
+!README.md
+!ARCHITECTURE.md
+
+# Images (if they contain sensitive info)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Temporary files
+temp_*
+test_*
+

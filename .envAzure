@@ -1,0 +1,14 @@
+# Azure OpenAI Configuration
+AZURE_OPENAI_API_KEY="5835babfda9a42dd9923e97657f62fd8"
+AZURE_OPENAI_ENDPOINT="https://az-innh-npr-aen-openai-01.openai.azure.com"
+AZURE_OPENAI_DEPLOYMENT="gpt-4o"
+AZURE_OPENAI_API_VERSION="2024-12-01-preview"
+AZURE_OPENAI_MODEL="gpt-4o"
+
+# PostgreSQL Database Configuration 
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=elite_db
+DB_USER=anindyachakrabarty
+DB_PASSWORD=
+
