@@ -2926,42 +2926,79 @@ class EliteDatabaseManagerV6:
 
     def get_large_cash_inflow_triggers(self, client_id: str) -> str:
         """
-        Detect large/unusual cash deposits in last 30 days (>AED 100K or >2x average).
+        Detect large/unusual cash inflows inferred from month-over-month CASA balance increases
+        using core.client_prod_balance_monthly (>AED 100K or >2x 6-month avg of positive deltas).
         Time-sensitive investment opportunity.
         """
         from datetime import datetime, timedelta
         
-        # Get recent large deposits (last 30 days)
-        recent_deposits = self._execute_query(
-            """SELECT ABS(destination_amount) as transaction_amount, txn_date as date
-               FROM core.clienttransactioncredit
-               WHERE customer_number=:cid 
-               AND txn_date >= CURRENT_DATE - INTERVAL '30 days'
-               AND ABS(destination_amount) > 50000
-               ORDER BY ABS(destination_amount) DESC
-               LIMIT 10""",
+        # Ensure source table exists
+        if not self._table_exists("core", "client_prod_balance_monthly"):
+            return self._json({
+                "trigger_detected": False,
+                "trigger_type": "large_cash_inflow",
+                "reason": "Table core.client_prod_balance_monthly not found"
+            })
+
+        # Use monthly CASA balance changes to infer inflows (client_prod_balance_monthly)
+        monthly_rows = self._execute_query(
+            """SELECT CAST(year_cal AS INTEGER) AS y,
+                      CAST(month_cal AS INTEGER) AS m,
+                      CAST(closing_current_account_bal AS NUMERIC) +
+                      CAST(closing_saving_account_bal AS NUMERIC) AS total_balance
+               FROM core.client_prod_balance_monthly
+               WHERE client_id=:cid
+               ORDER BY CAST(year_cal AS INTEGER), CAST(month_cal AS INTEGER)""",
             {"cid": client_id}
         )
-        
-        # Calculate 6-month average deposit
-        avg_deposit = self._execute_query(
-            """SELECT AVG(ABS(destination_amount)) as avg_amount
-               FROM core.clienttransactioncredit
-               WHERE customer_number=:cid
-               AND txn_date >= CURRENT_DATE - INTERVAL '6 months'""",
-            {"cid": client_id}
-        )
-        avg_deposit_amount = float(avg_deposit[0].get("avg_amount", 0) or 0) if avg_deposit else 50000
-        
-        # Identify large deposits
+
+        # Require at least 2 months of data to compute a change
+        if not monthly_rows or len(monthly_rows) < 2:
+            return self._json({
+                "trigger_detected": False,
+                "trigger_type": "large_cash_inflow",
+                "reason": "Insufficient monthly balance data"
+            })
+
+        # Compute month-over-month positive changes (inferred inflows)
+        from calendar import monthrange
+        deltas = []
+        balances = []
+        months = []
+        for row in monthly_rows:
+            y = int(row.get("y"))
+            m = int(row.get("m"))
+            total_balance = float(row.get("total_balance") or 0)
+            balances.append(total_balance)
+            months.append((y, m))
+
+        for i in range(1, len(balances)):
+            delta = balances[i] - balances[i - 1]
+            deltas.append({
+                "year": months[i][0],
+                "month": months[i][1],
+                "delta": max(0.0, float(delta))  # consider only inflows
+            })
+
+        # Average positive inflow over previous 6 months (excluding most recent)
+        previous_deltas = [d["delta"] for d in deltas[:-1] if d["delta"] > 0]
+        previous_six = previous_deltas[-6:]
+        avg_deposit_amount = (sum(previous_six) / len(previous_six)) if previous_six else 50000.0
+
+        # Identify large inferred deposits in last up to 6 months
         large_deposits = []
-        for dep in recent_deposits:
-            amount = float(dep.get("transaction_amount", 0))
+        for d in deltas[-6:]:
+            amount = float(d["delta"])
+            if amount <= 0:
+                continue
             if amount > 100000 or amount > (2 * avg_deposit_amount):
+                y = d["year"]; m = d["month"]
+                last_day = monthrange(y, m)[1]
+                dep_date = datetime(y, m, last_day)
                 large_deposits.append({
                     "amount": amount,
-                    "date": str(dep.get("date")),
-                    "days_ago": (datetime.now() - dep.get("date")).days if dep.get("date") else 0
+                    "date": str(dep_date.date()),
+                    "days_ago": (datetime.now() - dep_date).days
                 })
         
         trigger_detected = len(large_deposits) > 0
@@ -3466,6 +3503,9 @@ class EliteDatabaseManagerV6:
             last_txn_date = last_txn[0].get("last_transaction_date")
             if isinstance(last_txn_date, str):
                 last_txn_date = datetime.strptime(last_txn_date[:10], "%Y-%m-%d")
+            elif hasattr(last_txn_date, "year") and not hasattr(last_txn_date, "hour"):
+                # It's a date (no time) - convert to datetime
+                last_txn_date = datetime.combine(last_txn_date, datetime.min.time())
             days_since_last_txn = (datetime.now() - last_txn_date).days
         
         # If customer has no activity in 180+ days, all accounts are flagged as dormant
@@ -3475,7 +3515,7 @@ class EliteDatabaseManagerV6:
                 dormant_accounts.append({
                     "account": product.get("account_number"),
                     "product": product.get("product_description"),
-                    "balance": round(float(product.get("outstanding", 0)), 2),
+                    "balance": round(float(product.get("balance", 0)), 2),
                     "days_inactive": days_since_last_txn,
                     "last_transaction": str(last_txn_date.date()) if 'last_txn_date' in locals() else "Unknown"
                 })
@@ -4904,7 +4944,7 @@ def _run_rm_strategy_agent(agent: Agent, client_id: str, agent_outputs: Dict) ->
 
 if __name__ == "__main__":
     #ClientList=['10ALFHG', '10FPRKH', '10FXQPP', '10FARGP', '10AXRLF', '10AXGRL', '10FKQFL', '10APAAP', '10FRAQQ', '10FGALK', '10AGAHG', '10AFHHK', '10FPQQL', '10GAPPX', '10APALG', '10AGAHP', '10FLKRQ', '10FKRPQ', '10FKFRH', '10AFLQK', '10FHRGR', '10AAHAH', '10FHKPG', '10FHHQK', '10FHHPF']
-    #main(client_id='10ALFHG')
+    main(client_id='58GPXLQ')
 
     unique_client_ids = [
     '10ALFHG',
@@ -4917,17 +4957,12 @@ if __name__ == "__main__":
     '56HPKQK',
     '56QPHKX',
     '58GPXLQ',]
-for client_id in unique_client_ids:
-    main(client_id=client_id)
-    time.sleep(10)
+#for client_id in unique_client_ids:
+#    main(client_id=client_id)
+   # time.sleep(10)
 
 
-### 
-# 
-# 
-### 
-# 
-# ###
+
 
     
     

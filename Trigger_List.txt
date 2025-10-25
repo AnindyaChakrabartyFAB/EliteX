@@ -1,0 +1,340 @@
+UAE BANKING ENHANCEMENT - TRIGGER INVENTORY
+============================================
+
+EXISTING TRIGGERS (14 implemented in EliteXV8.py)
+=================================================
+
+Relationship & Engagement:
+- get_relationship_tenure_milestones
+  Description: Identifies relationship anniversaries (1, 5, 10+ years) for loyalty rewards
+  Data Required: core.client_context (relationship_start_date), core.communication_log
+
+- get_birthday_age_triggers
+  Description: Age-based product recommendations (18, 25, 35, 50, 65 milestones)
+  Data Required: core.client_context (date_of_birth), core.client_portfolio
+
+- get_engagement_risk_score
+  Description: Calculates engagement score based on transaction frequency and channel usage
+  Data Required: core.client_transaction, core.communication_log, core.engagement_analysis
+
+- get_complaint_followup_triggers
+  Description: Tracks unresolved complaints and escalates after 48 hours
+  Data Required: core.communication_log, core.followup
+
+Financial Opportunities:
+- get_idle_cash_opportunities
+  Description: Identifies high CASA balances (>AED 50K) for investment recommendations
+  Data Required: core.client_prod_balance_monthly, core.funds
+
+- get_large_cash_inflow_triggers
+  Description: Detects unusual cash inflows (>AED 100K) for investment opportunities
+  Data Required: core.client_prod_balance_monthly (month-over-month changes)
+
+- get_segment_upgrade_opportunities
+  Description: Identifies clients eligible for premium segment based on balance/income
+  Data Required: core.client_portfolio, core.client_prod_balance_monthly
+
+Credit & Lending:
+- get_high_credit_utilization_triggers
+  Description: Flags credit cards with >80% utilization for limit increase offers
+  Data Required: core.productbalance, credit_products
+
+- get_loan_payoff_triggers
+  Description: Identifies loans with 6+ months remaining for early settlement offers
+  Data Required: core.productbalance, core.client_transaction
+
+- get_interest_rate_opportunities
+  Description: Detects clients with high-rate loans eligible for refinancing
+  Data Required: core.productbalance, market_data (current rates)
+
+Banking Operations:
+- get_dormant_account_triggers
+  Description: Identifies accounts with no activity for 90+ days for reactivation
+  Data Required: core.client_transaction, core.productbalance
+
+- get_spending_category_shifts
+  Description: Detects spending pattern changes for targeted product offers
+  Data Required: core.client_transaction (transaction categories)
+
+Investment Management:
+- get_underperforming_holdings_triggers
+  Description: Flags investments underperforming benchmarks by >10%
+  Data Required: core.client_holding, core.funds, market_data
+
+PROPOSED NEW TRIGGERS (60+ additional)
+======================================
+
+CATEGORY 1: REVENUE GENERATION TRIGGERS (15 new triggers)
+---------------------------------------------------------
+
+Using Existing Data:
+1. Salary Credit Detection
+   Description: Monitor regular monthly deposits to identify salary accounts for pre-approved loan offers
+   Data Required: core.client_transaction (regular monthly credits), core.client_prod_balance_monthly
+
+2. Account Upgrade Eligibility
+   Description: Detect consistent balance growth qualifying for premium account features
+   Data Required: core.client_prod_balance_monthly (6-month trend), core.client_portfolio
+
+3. Investment Maturity Reminder
+   Description: Alert 30/60/90 days before fixed deposits/bonds mature for reinvestment
+   Data Required: core.client_holding (maturity dates), core.funds
+
+4. Credit Card Upgrade Opportunity
+   Description: Track spending patterns to recommend premium card products
+   Data Required: core.client_transaction (spending volume), credit_products
+
+5. Cross-Product Gap Analysis
+   Description: Identify clients with single products for bundle opportunities
+   Data Required: core.productbalance, casa_products, credit_products, investment_products
+
+6. Family Banking Opportunity
+   Description: Detect family members banking elsewhere based on transaction patterns
+   Data Required: core.client_transaction (inter-bank transfers), core.client_context
+
+7. Seasonal Spending Patterns
+   Description: Identify high-spend periods (Ramadan, Eid, Summer) for targeted offers
+   Data Required: core.client_transaction (seasonal analysis), economic_indicators
+
+8. Digital Banking Adoption
+   Description: Flag low digital usage for onboarding campaigns
+   Data Required: core.communication_log (channel usage), core.engagement_analysis
+
+Requiring New Data:
+9. Life Event Detection
+   Description: Marriage (joint accounts), childbirth (education savings), home purchase (mortgage)
+   Data Required: NEW: core.client_life_events, government databases, social media APIs
+
+10. Business Owner Identification
+    Description: Detect business transactions for SME banking products
+    Data Required: NEW: business registration data, trade license info, business transaction patterns
+
+11. Expat Lifecycle Triggers
+    Description: Track visa renewals, home country remittances for forex/remittance products
+    Data Required: NEW: visa status data, remittance patterns, home country banking
+
+12. Wealth Accumulation Milestone
+    Description: Alert when client reaches AED 500K/1M/5M thresholds
+    Data Required: core.client_prod_balance_monthly + NEW: total wealth calculation
+
+13. Competitor Product Usage
+    Description: Detect payments to competitor banks for poaching campaigns
+    Data Required: NEW: open banking APIs, competitor transaction data
+
+14. Travel Pattern Analysis
+    Description: Frequent international transactions trigger travel cards/insurance
+    Data Required: NEW: travel booking data, international transaction patterns
+
+15. Educational Milestone
+    Description: Children reaching university age for education loans
+    Data Required: NEW: family composition data, education planning information
+
+CATEGORY 2: RISK MITIGATION TRIGGERS (12 new triggers)
+------------------------------------------------------
+
+Using Existing Data:
+16. Velocity Checks
+    Description: Detect unusual transaction frequency spikes (fraud indicator)
+    Data Required: core.client_transaction (transaction count/time analysis)
+
+17. Balance Drain Alert
+    Description: Rapid balance depletion suggesting financial distress
+    Data Required: core.client_prod_balance_monthly (balance velocity), core.client_transaction
+
+18. Payment Default Risk
+    Description: Late payment patterns on loans/credit cards
+    Data Required: core.client_transaction (payment dates), core.productbalance
+
+19. Credit Limit Breach Pattern
+    Description: Repeated over-limit attempts indicating stress
+    Data Required: core.client_transaction (declined transactions), core.productbalance
+
+20. Negative Balance Frequency
+    Description: Frequent overdrafts without facility
+    Data Required: core.client_prod_balance_monthly (negative balance instances)
+
+21. AECB Score Deterioration
+    Description: New negative alerts on credit bureau
+    Data Required: NEW: AECB real-time monitoring, credit bureau APIs
+
+22. Concentration Risk Alert
+    Description: Over-exposure to single investment/sector
+    Data Required: core.client_holding, core.funds (sector analysis)
+
+Requiring New Data:
+23. Fraud Pattern Detection
+    Description: ML-based anomaly detection on transactions
+    Data Required: NEW: ML models, behavioral patterns, device fingerprinting
+
+24. Cyber Security Risk
+    Description: Multiple failed login attempts, device changes
+    Data Required: NEW: authentication logs, device tracking, IP geolocation
+
+25. PEP/Sanctions Screening
+    Description: Regulatory compliance for politically exposed persons
+    Data Required: NEW: sanctions lists, PEP databases, regulatory APIs
+
+26. Source of Funds Verification
+    Description: Large deposits requiring SOF documentation
+    Data Required: NEW: large transaction monitoring, document verification
+
+27. Anti-Money Laundering Triggers
+    Description: Structuring, round amounts, rapid movement
+    Data Required: NEW: AML monitoring systems, transaction pattern analysis
+
+CATEGORY 3: OPERATIONAL EFFICIENCY TRIGGERS (10 new triggers)
+-------------------------------------------------------------
+
+Using Existing Data:
+28. Auto-Renewal Eligibility
+    Description: Products qualifying for automatic renewal
+    Data Required: core.client_holding (renewal dates), core.funds
+
+29. Document Expiry Alerts
+    Description: Passport, Emirates ID, trade license expiry
+    Data Required: NEW: document management system, expiry date tracking
+
+30. Unclaimed Benefits
+    Description: Loyalty points, cashback, rewards about to expire
+    Data Required: NEW: loyalty program data, rewards tracking
+
+31. Fee Waiver Eligibility
+    Description: High-value clients eligible for fee waivers
+    Data Required: core.client_portfolio, core.client_prod_balance_monthly
+
+32. Statement Delivery Failure
+    Description: Bounced emails for contact update
+    Data Required: NEW: email delivery tracking, communication_log
+
+33. Dormant High-Value Accounts
+    Description: Premium clients with no activity (retention risk)
+    Data Required: core.client_transaction, core.client_portfolio
+
+Requiring New Data:
+34. Call Center Interaction Quality
+    Description: Multiple calls on same issue (service quality)
+    Data Required: NEW: call center logs, interaction tracking, issue resolution
+
+35. Branch Visit Frequency
+    Description: Declining visits for digital migration
+    Data Required: NEW: branch visit tracking, appointment systems
+
+36. Self-Service Success Rate
+    Description: Failed digital transactions requiring intervention
+    Data Required: NEW: digital channel logs, transaction success rates
+
+37. Queue Time Optimization
+    Description: Predict branch/call volume for staffing
+    Data Required: NEW: queue management systems, historical volume data
+
+CATEGORY 4: CUSTOMER EXPERIENCE & RETENTION (13 new triggers)
+-------------------------------------------------------------
+
+Using Existing Data:
+38. Negative Balance Recovery
+    Description: Client restored from negative balance (goodwill opportunity)
+    Data Required: core.client_prod_balance_monthly (balance recovery tracking)
+
+39. Loyalty Recognition Milestone
+    Description: 5/10/15/20 year anniversaries
+    Data Required: core.client_context (relationship_start_date), core.communication_log
+
+40. Product Usage Decline
+    Description: Reduced transaction frequency on key products
+    Data Required: core.client_transaction (usage pattern analysis), core.productbalance
+
+41. Multi-Channel Engagement Score
+    Description: Using ≥3 channels (branch, app, call center)
+    Data Required: core.communication_log (channel usage), core.engagement_analysis
+
+42. Complaint Resolution Follow-up
+    Description: Post-resolution satisfaction check
+    Data Required: core.communication_log, core.followup
+
+43. Service Request Completion
+    Description: Timely follow-up after requests
+    Data Required: core.communication_log, core.followup
+
+Requiring New Data:
+44. Net Promoter Score Trigger
+    Description: Low NPS requiring intervention
+    Data Required: NEW: NPS survey data, customer feedback systems
+
+45. Churn Prediction Model
+    Description: ML-based probability of account closure
+    Data Required: NEW: ML models, behavioral patterns, engagement metrics
+
+46. Customer Effort Score
+    Description: High effort interactions needing process improvement
+    Data Required: NEW: interaction tracking, effort measurement systems
+
+47. Social Media Sentiment
+    Description: Negative mentions requiring response
+    Data Required: NEW: social media monitoring APIs, sentiment analysis
+
+48. Referral Opportunity
+    Description: Satisfied clients likely to refer others
+    Data Required: NEW: satisfaction scores, referral tracking systems
+
+49. Personalized Milestone Celebration
+    Description: Birthdays, national days, religious holidays
+    Data Required: NEW: cultural calendar, personal milestone tracking
+
+50. Health & Wellness Programs
+    Description: Gym memberships, health insurance for lifestyle banking
+    Data Required: NEW: lifestyle data, wellness program partnerships
+
+UAE-SPECIFIC CULTURAL & REGULATORY TRIGGERS (10 additional)
+-----------------------------------------------------------
+
+51. Ramadan Campaign Timing
+    Description: Special financing/savings 30 days before Ramadan
+    Data Required: NEW: Islamic calendar integration, seasonal spending patterns
+
+52. Hajj/Umrah Financing
+    Description: Travel package financing for religious pilgrimages
+    Data Required: NEW: travel booking data, religious calendar, pilgrimage packages
+
+53. Zakat Calculation Service
+    Description: Islamic wealth tax computation and payment
+    Data Required: core.client_prod_balance_monthly + NEW: Islamic finance rules, wealth calculation
+
+54. Sharia-Compliant Product Gaps
+    Description: Conventional products for Islamic banking clients
+    Data Required: core.client_portfolio + NEW: Islamic product mapping, client preferences
+
+55. Expat Exit Planning
+    Description: Visa cancellation triggers for loan settlements
+    Data Required: NEW: visa status tracking, exit planning data
+
+56. Golden Visa Eligibility
+    Description: Wealth threshold for UAE long-term residency
+    Data Required: core.client_prod_balance_monthly + NEW: residency requirements, wealth thresholds
+
+57. Emiratization Priority
+    Description: UAE national clients for premium services
+    Data Required: core.client_context (nationality) + NEW: Emiratization policies
+
+58. End-of-Service Benefits
+    Description: Gratuity payment financing for businesses
+    Data Required: NEW: employment data, gratuity calculations, business relationships
+
+59. Real Estate Investment Triggers
+    Description: Property transaction patterns for mortgage offers
+    Data Required: NEW: real estate transaction data, property registry
+
+60. Arabic Language Preference
+    Description: Communication in Arabic for preferred clients
+    Data Required: NEW: language preference tracking, Arabic communication systems
+
+SUMMARY
+=======
+Total Existing Triggers: 14
+Total Proposed New Triggers: 60
+Total Triggers After Implementation: 74
+
+Implementation Priority:
+- Phase 1 (Months 1-2): 15 triggers using existing data
+- Phase 2 (Months 2-4): Data infrastructure for new data sources
+- Phase 3 (Months 4-6): Advanced ML-based triggers
+- Phase 4 (Months 6-12): Optimization and refinement
