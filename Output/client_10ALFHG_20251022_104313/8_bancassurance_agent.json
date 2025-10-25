@@ -1,0 +1,15 @@
+{
+  "client_id": "10ALFHG",
+  "RM_id": null,
+  "existing_coverage_summary": "Client holds two policies with a total value of AED 522,581.62 covering investment (Vista) and whole life insurance (FUTURA).",
+  "age": 48.64,
+  "days_to_birthday": 217,
+  "lifecycle_stage": "Premium segment",
+  "product_recommendations": [
+    {
+      "product_name": "Legacy Continuity Plan",
+      "justification": "As a 48-year-old client in a premium wealth management segment, ensuring financial continuity for dependents is a key need. A Legacy Continuity Plan complements existing whole-life coverage and aligns with their segment’s objectives for financial security."
+    }
+  ],
+  "Agent_Recommends": "Enhance client's coverage by introducing a legacy continuity product to safeguard financial security and extend their existing investment portfolio. Engage during significant milestones to strengthen the relationship and ensure adequate planning for future needs."
+}

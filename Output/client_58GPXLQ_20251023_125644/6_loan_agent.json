@@ -1,0 +1,17 @@
+{
+  "client_id": "58GPXLQ",
+  "RM_id": null,
+  "annual_income_aed": "1200000.0",
+  "total_outstanding_aed": "238848.03",
+  "debt_to_income_ratio": "19.9",
+  "estimated_lending_capacity_aed": "241151.97",
+  "aecb_alerts_count": 7,
+  "aecb_summary": "7 alerts: 5x Credit Card (total credit limit AED 505,000), 2x Communications Service (total credit limit AED 0)",
+  "product_recommendations": [
+    {
+      "product_name": "FAB Personal Loan for Credit Card Consolidation",
+      "justification": "With 5 credit card-related AECB alerts totaling a credit limit of AED 505,000 and a strong debt-to-income ratio of 19.9%, consolidating the credit into a personal loan can reduce the credit exposure and optimize repayment terms."
+    }
+  ],
+  "Agent_Recommends": "The client displays an excellent borrowing capacity of AED 241,151.97 and a manageable DTI ratio of 19.9%, indicating creditworthiness. Due to the presence of multiple AECB alerts related to credit cards, consolidating these debts under a personal loan is advisable for streamlined management and cost reduction."
+}

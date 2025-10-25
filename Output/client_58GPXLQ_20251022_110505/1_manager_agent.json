@@ -1,0 +1,24 @@
+{
+  "client_id": "58GPXLQ",
+  "client_name": "SRPQRPQRJQWET   CHXYZLXYZKKXYZL",
+  "age": 47.82,
+  "risk_appetite": "R4",
+  "segment": "WEALTH MANAGEMENT",
+  "subsegment": "Elite Standard",
+  "rm_id": "FAB8586",
+  "rm_name": "GFHTREhXYZGFHPQRd YPQRhQWEXYZ",
+  "annual_income_aed": "1200000.0",
+  "aum_aed": "11887242.1",
+  "casa_balance_aed": "39707.44",
+  "relationship_tenure_years": 2.4,
+  "kyc_expiry_date": "2025-11-22",
+  "aecb_alerts_count": 7,
+  "aecb_summary": "7 alerts: 5x Credit Card (AED 455,000 total limits), 2x Communication Services (additional details shared separately)",
+  "immediate_actions": [
+    "Prepare for KYC expiration in 31 days (22-Nov-2025).",
+    "Follow-up on identified AECB triggers.",
+    "Address portfolio rebalancing by 45% for alternative investments, 15% into Equities and Fixed Income, and 25% into Money Market assets."
+  ],
+  "downstream_summary": "Identified a portfolio over-reliance on Fixed Income (100% allocation). Top holdings include Emirates NBD PJSC. CASA trends indicate a significant 70% decline; recommend discussions around loan or overdraft products.",
+  "executive_summary": "Client is a 47-year-old Elite Standard customer with a total AUM of AED 11.9M focused entirely on fixed-income investments. No immediate maturing products, but the KYC document is expiring in one month. Significant opportunity for portfolio diversification exists due to targeting deviation adjustments enabling broader financial stability and growth."
+}

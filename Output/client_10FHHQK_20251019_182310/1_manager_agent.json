@@ -1,0 +1,22 @@
+{
+  "client_id": "10FHHQK",
+  "client_name": "XYZBD12LLXYZ GFHTREHXYZGFHPQRD SXYZPQRPQRD B XYZLKHXYZTPQRRQWE",
+  "age": 45.92,
+  "risk_appetite": "R4",
+  "segment": "WEALTH MANAGEMENT",
+  "subsegment": "Elite Standard",
+  "rm_id": "102746",
+  "rm_name": "PrXYZsXYZd NXYZrXYZyXYZnXYZn",
+  "annual_income_aed": "897840",
+  "aum_aed": "0",
+  "casa_balance_aed": "21804.05",
+  "relationship_tenure_years": 18.51,
+  "kyc_expiry_date": "2027-10-05",
+  "aecb_alerts_count": 4,
+  "aecb_summary": "4 alerts: 3x Covered Card (Total AED 0), 1x Murabaha Buy/sell Commodities (AED 1,400,000)",
+  "immediate_actions": [
+    "Engage with client to address AECB alerts regarding Covered Card and Murabaha facilities"
+  ],
+  "downstream_summary": "Monitor client AECB alerts: 4 active (1.x Murabaha AED 1,400,000). Spending pattern: AED 58.8 in Fast Food Restaurants, single transaction; debit only.",
+  "executive_summary": "Client is a 45.92-year-old male classified under elite standard in wealth management segment, handled by RM PrXYZsXYZd NXYZrXYZyXYZnXYZn. No recent product maturities, KYC valid till October 2027. Requires addressing four AECB alerts with a notable AED 1,400,000 linked with a Murabaha transaction and expenditure observation primarily in fast-food purchases (AED 58.8 via debit)."
+}

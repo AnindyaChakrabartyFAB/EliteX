@@ -1,0 +1,9 @@
+{
+  "client_id": "58GPXLQ",
+  "risk_appetite": "R4",
+  "current_allocation": "Fixed Income: 100%",
+  "target_allocation": "Money Market 25%, Fixed Income 15%, Equities 15%, Alternative Investments 45%",
+  "allocation_gaps": "100% overallocated in Fixed Income, missing 25% Money Market, 15% Fixed Income, Equities, and 45% Alternative Investments.",
+  "total_rebalancing_amount_aed": "11887242.1",
+  "Agent_Recommends": "The client should reduce the Fixed Income allocation significantly and redistribute the amount into Alternative Investments (45%), Money Market assets (25%), Fixed Income (15%), and Equities (15%). This ensures alignment with R4 risk tolerance and enhances portfolio diversification."
+}

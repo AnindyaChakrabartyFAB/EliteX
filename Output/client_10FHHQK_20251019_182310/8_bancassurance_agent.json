@@ -1,0 +1,19 @@
+{
+  "client_id": "10FHHQK",
+  "RM_id": "PrXYZsXYZdNXYZrXYZyXYZnXYZn",
+  "existing_coverage_summary": "Client currently has no active insurance policies.",
+  "age": 46.0,
+  "days_to_birthday": 114,
+  "lifecycle_stage": "Mid-40s - transitioning to wealth preservation and empty nester stage.",
+  "product_recommendations": [
+    {
+      "product_name": "Live Life Term Insurance",
+      "justification": "The client currently lacks any life insurance coverage. Given their age of 46 and upcoming life stage as an empty nester, having a term insurance plan is essential to ensure family protection and financial security."
+    },
+    {
+      "product_name": "Future Invest Guaranteed Maturity",
+      "justification": "Aligned with the client's wealth management status and nearing empty-nester stage, this policy offers an opportunity for secure financial growth and supports long-term financial planning for retirement."
+    }
+  ],
+  "Agent_Recommends": "As the client currently holds no insurance policies and is entering a critical stage for financial and retirement planning, we recommend implementing protection and investment strategies to secure their financial future."
+}

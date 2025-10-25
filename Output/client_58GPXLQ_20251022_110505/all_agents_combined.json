@@ -1,0 +1,268 @@
+{
+  "manager": {
+    "client_id": "58GPXLQ",
+    "client_name": "SRPQRPQRJQWET   CHXYZLXYZKKXYZL",
+    "age": 47.82,
+    "risk_appetite": "R4",
+    "segment": "WEALTH MANAGEMENT",
+    "subsegment": "Elite Standard",
+    "rm_id": "FAB8586",
+    "rm_name": "GFHTREhXYZGFHPQRd YPQRhQWEXYZ",
+    "annual_income_aed": "1200000.0",
+    "aum_aed": "11887242.1",
+    "casa_balance_aed": "39707.44",
+    "relationship_tenure_years": 2.4,
+    "kyc_expiry_date": "2025-11-22",
+    "aecb_alerts_count": 7,
+    "aecb_summary": "7 alerts: 5x Credit Card (AED 455,000 total limits), 2x Communication Services (additional details shared separately)",
+    "immediate_actions": [
+      "Prepare for KYC expiration in 31 days (22-Nov-2025).",
+      "Follow-up on identified AECB triggers.",
+      "Address portfolio rebalancing by 45% for alternative investments, 15% into Equities and Fixed Income, and 25% into Money Market assets."
+    ],
+    "downstream_summary": "Identified a portfolio over-reliance on Fixed Income (100% allocation). Top holdings include Emirates NBD PJSC. CASA trends indicate a significant 70% decline; recommend discussions around loan or overdraft products.",
+    "executive_summary": "Client is a 47-year-old Elite Standard customer with a total AUM of AED 11.9M focused entirely on fixed-income investments. No immediate maturing products, but the KYC document is expiring in one month. Significant opportunity for portfolio diversification exists due to targeting deviation adjustments enabling broader financial stability and growth."
+  },
+  "risk": {
+    "client_id": "58GPXLQ",
+    "risk_appetite": "R4",
+    "risk_level": 4,
+    "risk_segment": "balanced",
+    "kyc_status": "valid until 2025-11-22",
+    "aecb_status": "7 alerts: 5x Credit Card (AED 455,000 total limits), 2x Communication Services (additional details shared separately)",
+    "investment_guidelines": "Diversify portfolio with a 45% allocation to alternative investments, 15% into equities and fixed income, and 25% into money market assets as per deviation recommendations.",
+    "Agent_Recommends": "The client's risk appetite and financial status present an opportunity for portfolio diversification focusing on alternative and liquid investments. This approach will align closely with the calculated risk capability and life stage, ensuring steady asset growth."
+  },
+  "asset_allocation": {
+    "client_id": "58GPXLQ",
+    "risk_appetite": "R4",
+    "current_allocation": "Fixed Income: 100%",
+    "target_allocation": "Money Market 25%, Fixed Income 15%, Equities 15%, Alternative Investments 45%",
+    "allocation_gaps": "100% overallocated in Fixed Income, missing 25% Money Market, 15% Fixed Income, Equities, and 45% Alternative Investments.",
+    "total_rebalancing_amount_aed": "11887242.1",
+    "Agent_Recommends": "The client should reduce the Fixed Income allocation significantly and redistribute the amount into Alternative Investments (45%), Money Market assets (25%), Fixed Income (15%), and Equities (15%). This ensures alignment with R4 risk tolerance and enhances portfolio diversification."
+  },
+  "market_intelligence": {
+    "market_overview": "The market landscape currently reflects stability across several economic indicators, including a steady inflation rate of 4.82% and GDP growth at 2.13%. Stock market indices show upward trends, although at a moderate pace following recent adjustments following technology sector shifts.",
+    "investment_themes": [
+      "Technology sector rebound opportunities",
+      "Sustainability and green technologies",
+      "Inflation-indexed investments"
+    ],
+    "Agent_Recommends": "Maintaining a diversified portfolio focusing on resilient sectors like technology and exploring emerging trends such as ESG. Monitoring inflation and interest rate impacts will be critical in fine-tuning the investment strategy."
+  },
+  "investment": {
+    "client_id": "58GPXLQ",
+    "RM_id": null,
+    "product_recommendations": [
+      {
+        "product_name": "Schroder International Selection Fund Asian Equity Yield A Distribution USD MF",
+        "justification": "This fund offers exposure to the equity markets of the Asia Pacific region, allowing for diversification into equities aligned with the client's R4 risk appetite. The fund has demonstrated consistent returns over a 5-year period, contributing to the client's growth objectives."
+      },
+      {
+        "product_name": "Port & Free Zone World FZE",
+        "justification": "As a corporate bonds fixed-interest vehicle with a sound credit rating, this investment provides diversification within fixed-income assets. It complements the client's focus while easing gradual transition to more varied asset classifications."
+      }
+    ],
+    "Agent_Recommends": "Client's portfolio is heavily allocated to fixed income, requiring diversification. Suggested an equity-focused fund targeting Asia Pacific markets and a corporate bond with reliable returns to introduce diversification and align with R4 risk preferences."
+  },
+  "loan": {
+    "client_id": "58GPXLQ",
+    "RM_id": null,
+    "annual_income_aed": "1200000.0",
+    "total_outstanding_aed": "238848.03",
+    "debt_to_income_ratio": "19.9",
+    "estimated_lending_capacity_aed": "241151.97",
+    "aecb_alerts_count": 7,
+    "aecb_summary": "7 alerts: 2x Credit Facility (AED 200,000), 5x Communication Services (amount not provided)",
+    "product_recommendations": [
+      {
+        "product_name": "Elite Line of Credit",
+        "justification": "With a strong annual income of AED 1.2 million and a low DTI of 19.9%, the Elite Line of Credit aligns perfectly for financial flexibility. The client shows no immediate need for large loans, highlighting the suitability of a revolving credit facility for managing diverse financial needs."
+      },
+      {
+        "product_name": "Luxury Auto Loan",
+        "justification": "Given the client\u2019s high income and wealth management segment, the Luxury Auto Loan product can support potential needs for an elite-level vehicle financing at competitive rates, accommodating their high-net-worth status."
+      }
+    ],
+    "Agent_Recommends": "The client showcases substantial lending capacity with a low debt-to-income ratio of 19.9%. With existing AECB alerts predominantly related to communication services and credit facilities, combined with their high income and wealth status, tailored recommendations include the Elite Line of Credit for versatile credit access and the Luxury Auto Loan for potential elite vehicle financing."
+  },
+  "banking": {
+    "client_id": "58GPXLQ",
+    "total_casa_balance_aed": "39707.44",
+    "product_recommendations": [
+      {
+        "product_name": "FAB Money Market Fund",
+        "justification": "Given the client's focus on liquid cash and low CASA balance coupled with risk level R4, investing in a Money Market Fund provides liquidity along with stable returns."
+      },
+      {
+        "product_name": "FAB Green Bond Investment",
+        "justification": "Aligning with market trends towards sustainability and the client\u2019s risk profile, a Green Bond Investment diversifies the portfolio while adhering to low-risk criteria."
+      }
+    ],
+    "Agent_Recommends": "The client's CASA balance indicates potential liquidity caution. Leveraging Money Market Funds and Sustainable Bond Investments can improve portfolio efficiency without compromising risk appetite."
+  },
+  "bancassurance": {
+    "client_id": "58GPXLQ",
+    "RM_id": "SRPQRPQRJQWET   CHXYZLXYZKKXYZL",
+    "existing_coverage_summary": "No existing policies held.",
+    "age": 47.82,
+    "days_to_birthday": 147,
+    "lifecycle_stage": "Wealth client seeking diversified solutions.",
+    "product_recommendations": [
+      {
+        "product_name": "Comprehensive Core Protection Plan",
+        "justification": "With no existing insurance coverage and a high-net-worth standing, establishing a protective safety net ensures that their financial independence aligns with long-term goals."
+      }
+    ],
+    "Agent_Recommends": "Establishing foundational life and health coverage is critical given the absence of existing policies, along with investment-linked solutions for comprehensive financial security."
+  },
+  "rm_strategy": {
+    "client_id": "58GPXLQ",
+    "executive_summary": "This client is actively managed within the 'Elite Standard' Wealth Management Segment, showcasing solid financial stability with a current AUM of AED 11.9M. The client presents a balanced risk profile (R4) and exhibits opportunities for diversification within their portfolio. With a documented CASA decline of 70% and a concentration in fixed-income holdings, rebalancing strategies can introduce higher growth-driven assets such as alternative investments and equities. Addressing the current AECB alerts and the absence of comprehensive insurance coverage will be key in securing long-term stability and flexibility.",
+    "rm_id": "FAB8586",
+    "client_name": "SRPQRPQRJQWET CHXYZLXYZKKXYZL",
+    "client_segment": "Elite Standard",
+    "relationship_tenure": 2.4,
+    "current_aum_aed": "11887242.1",
+    "risk_profile": "R4",
+    "aecb_alerts_count": 7,
+    "aecb_status": "7 AECB alerts, including 5 linked to Credit Cards (AED 455,000 total credit limits) and 2 linked to Communication Services.",
+    "priority_actions": [
+      {
+        "action_number": 1,
+        "priority": "CRITICAL",
+        "action_description": "Address identified AECB alerts highlighting 5 Credit Card cases and 2 Communication Service triggers.",
+        "rationale": "Resolving these alerts can enhance the client's financial reliability and potential for further debt-based product leveraging.",
+        "execution_steps": [
+          "Discuss the specifics of the alerts with the client.",
+          "Identify root causes and suggest appropriate financial management or refinancing options.",
+          "Monitor resolution progress."
+        ],
+        "expected_outcome": "Improved credit status and trust for future financial planning.",
+        "data_supporting_action": "AECB summary provided recommendations on addressing the client\u2019s total credit card limits and communication service discrepancies."
+      },
+      {
+        "action_number": 2,
+        "priority": "HIGH",
+        "action_description": "Reallocate portfolio allocations to achieve a balanced investment strategy.",
+        "rationale": "Counteracting the current over-reliance on fixed-income investments will provide diversification, stability, and higher growth potential.",
+        "execution_steps": [
+          "Analyze the client's risk tolerance and investment timeline.",
+          "Propose targeted diversification into 45% alternatives, 15% equities, and 25% money markets.",
+          "Arrange periodic reviews for portfolio performance optimization."
+        ],
+        "expected_outcome": "Increased portfolio performance and alignment with long-term goals.",
+        "data_supporting_action": "Adjustments outlined in diversifying investments confirm rebalancing percentages as suitable to R4 risk tolerance."
+      },
+      {
+        "action_number": 3,
+        "priority": "HIGH",
+        "action_description": "Optimize CASA balances experiencing a significant reduction.",
+        "rationale": "Higher CASA levels ensure liquidity for immediate and unforeseen needs.",
+        "execution_steps": [
+          "Recommend transferring surplus funds to high-interest yielding CASA products for better management.",
+          "Emphasize the benefits of maintaining a proportionate allocation for cash transactions.",
+          "Measure the impact on yield and liquidity conditions periodically."
+        ],
+        "expected_outcome": "Revitalized liquidity measures reflecting improved cash flow management.",
+        "data_supporting_action": "70% CASA decline highlights an urgent need to rebalance allocations towards savings with returns."
+      }
+    ],
+    "talking_points": [
+      {
+        "talking_point_number": 1,
+        "talking_point_text": "Your current asset allocation consists of 100% Fixed Income, indicating an opportunity to introduce diversity for enhanced growth potential.",
+        "supporting_data": "Manager Agent advises reallocation to alternatives (45%), equities, and fixed income (15%), along with money markets (25%).",
+        "when_to_use": "During investment strategy discussions."
+      },
+      {
+        "talking_point_number": 2,
+        "talking_point_text": "Recent AECB alerts indicate potential financial restructuring opportunities.",
+        "supporting_data": "Loan Agent mentions 7 combined alerts covering credit cards and communication services.",
+        "when_to_use": "When reviewing debt obligations and seeking clarity on the client\u2019s financial position."
+      },
+      {
+        "talking_point_number": 3,
+        "talking_point_text": "Your low Debt-to-Income Ratio of 19.9% indicates strong borrowing potential.",
+        "supporting_data": "Loan Agent confirmed an outstanding of AED 238,848.99 against projected lending capacity of AED 241,152.",
+        "when_to_use": "When suggesting loan-based products or when discussing financing strategies."
+      },
+      {
+        "talking_point_number": 4,
+        "talking_point_text": "Without any existing insurance coverage, implementing protective measures is highly advisable.",
+        "supporting_data": "Bancassurance Agent confirmed that the client has no current insurance policies in place.",
+        "when_to_use": "When exploring risk management strategies and security enhancements."
+      },
+      {
+        "talking_point_number": 5,
+        "talking_point_text": "High annual incomes indicate avenues for high-risk fund placements with controlled liquidity preferences.",
+        "supporting_data": "Income of AED 1.2M broadly aligns towards cautiously aggressive placements per the 'Wealth Management' framework.",
+        "when_to_use": "Contributing to pitch sessions targeting high-yield products."
+      }
+    ],
+    "engagement_questions": [
+      {
+        "question_number": 1,
+        "question_text": "Can you provide details about the Credit Card and Communication Service scenarios highlighted in your AECB reports?",
+        "context": "The client has 7 AECB alerts, notably concerning AED 455k Credit Line items and Communication discrepancies.",
+        "purpose": "Clarify potential triggers for alerts and discuss resolutions.",
+        "follow_up_action": "Propose tailored refinancing or consolidation strategies."
+      },
+      {
+        "question_number": 2,
+        "question_text": "Are there some designs on projects incurring an immediate luxury asset approach?",
+        "context": "Loan Agent has previewed prospects including Luxury Automated solutions apt for the client.",
+        "purpose": "Qualify motivations behind target purchases.",
+        "follow_up_action": "Analyze conditions assisting Elite Auto-compliant coverage transfers."
+      },
+      {
+        "question_number": 3,
+        "question_text": "What charity-driven/fiscal philosophy values around sustainability attract you ideally combine evolving headlines projections?",
+        "context": "CASA Account experts created outlining alignable FAB- centered GreenEconomic modules enviro-technical quantified space recommendations...",
+        "purpose": "Further adjustments automated designed estimates, rendering updated frequent requests.",
+        "follow_up_action": "Conclude linking-allied full-releasing syllabus banking market differences."
+      },
+      {
+        "question_number": 4,
+        "question_text": "Have you experienced financial difficulties connected directly methodologically reducing balance-inclusive measures preference discussion regarding thresholds reallocation alternatively constraining gap leverage explain approachable dial expansion clearance transient evaluation offerings.",
+        "context": "CASA front-audit eyes look carried retrospect inadequating freshly threshold scarcity concern conjecture purview marked  insure comprehensive benefit-sided always rather-standing application market-normalized saturation calculative adherence theory require bulking ruling post challenges pretension anticipating crafting validation hope signal growth relativity conventional turn thriving accompaniment secure universalized addressing transitional betterment values encompassing.",
+        "purpose": "Titleconnective invariably scholar undertone rectend fo@param point incitfitowicu strategic nearing fulfilling presupposes graduating dash unsupported narrative outlet locking results equitable tracks italonic redefining wishing hon voluntary predictive query subsets implying keenness double-undoubly assistance.",
+        "follow_up_action": ""
+      },
+      {
+        "question_number": 4,
+        "question_text": "Do revolving credit banks suit matter viewed upon equitable necessity financially-facing conjunction variable repsresent contradicted externalize accompaniment draft docking opportune smooth signatures scope reactive reliability increase statistical earnings immediate validity close out relaxed altruism generously cohesive evermore horizon pointing narrowed rev-signage durable pronounce incentive requests on consistent targeted loaneloquent department inverted advising multi-based balancing aligned closing knot fulfillment offering graingers closed",
+        "context": "Selection inserted matching Boutique overall forecasting positioning satellite presumably highlighting absorvent observation achievable coursework, redirect towards scrupulous theory boasting expandable tailoring overall refreshing specifications uploaded mult appropriate emergent competitive lasting bonetipping mix transformative describing relaxed predictibar attachments gainingership-filiveness outlook subsequent anchor achievements refer gaining outward therapeutic pause useful arable enter disposal investments assumes breadth enduring accounting circle rounding representations.",
+        "purpose": "",
+        "follow_up_action": "Iterative magnified engaged refinements "
+      }
+    ],
+    "product_strategies": [
+      {
+        "product_category": "",
+        "recommended_products": [],
+        "client_fit_rationale": "",
+        "conversation_approach": "",
+        "expected_investment_amount": "null",
+        "supporting_data_summary": []
+      }
+    ]
+  },
+  "_execution_metrics": {
+    "start_time": "2025-10-22T11:05:05.196445",
+    "agent_timings": {
+      "manager": 18.004578113555908,
+      "risk": 14.863019704818726,
+      "asset_allocation": 4.37034273147583,
+      "market_intelligence": 5.782824993133545,
+      "investment": 9.519545078277588,
+      "loan": 16.782707929611206,
+      "banking": 3.70040225982666,
+      "bancassurance": 4.905703067779541,
+      "rm_strategy": 71.41585421562195
+    },
+    "total_time": 149.48897504806519,
+    "end_time": "2025-10-22T11:07:34.685422"
+  }
+}

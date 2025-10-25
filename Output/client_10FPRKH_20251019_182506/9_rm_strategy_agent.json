@@ -1,0 +1,204 @@
+{
+  "client_id": "10FPRKH",
+  "executive_summary": "The client is a high-value individual in the Wealth Management segment. With an annual income of AED 539,880, a CASA balance of AED 23,647.53, and an excellent debt-to-income ratio (-32.65%), they possess strong financial capacity. However, they currently have no active investments or insurance products, presenting opportunities for wealth optimization. Furthermore, an AECB alert indicates an overdue Communication Service payment of AED 203, necessitating timely resolution for maintaining financial well-being.",
+  "rm_id": "FAB13087",
+  "client_name": "PQRSXYZGFH   XYZBD12LRXYZHGFHXYZN NXYZPQRF F. XYZLXYZGFHRQWE",
+  "client_segment": "Wealth Management",
+  "relationship_tenure": 19.31,
+  "current_aum_aed": "0",
+  "risk_profile": "R4 (Moderate)",
+  "aecb_alerts_count": 1,
+  "aecb_status": "1 alert: 1x Communication Services (AED 203.0) - overdue",
+  "priority_actions": [
+    {
+      "action_number": 1,
+      "priority": "CRITICAL",
+      "action_description": "Resolve the AECB alert for the overdue Communication Service account.",
+      "rationale": "Addressing this alert promptly will secure the client's financial standing.",
+      "execution_steps": [
+        "Confirm the validity of the AECB alert.",
+        "Contact the client to notify them of the issue and provide support.",
+        "Assist in resolving the overdue amount of AED 203."
+      ],
+      "expected_outcome": "The client's financial standing will be restored.",
+      "data_supporting_action": "Manager and Loan agents' outputs indicating a single AECB alert for AED 203.0."
+    },
+    {
+      "action_number": 2,
+      "priority": "HIGH",
+      "action_description": "Introduce investment opportunities tailored to the client's R4 risk profile.",
+      "rationale": "Currently having zero AUM and substantial liquidity in CASA indicates untapped potential for growth.",
+      "execution_steps": [
+        "Present the client with the investment products recommended by the Investment Agent.",
+        "Explain the risk-aligned benefits and growth potentials of proposed investments.",
+        "Address any questions or concerns the client may have."
+      ],
+      "expected_outcome": "Successful allocation of assets to increase AUM and optimize returns.",
+      "data_supporting_action": "Investment Agent recommendations align with mid-career financial goals and risk tolerance."
+    },
+    {
+      "action_number": 3,
+      "priority": "HIGH",
+      "action_description": "Propose a personal loan consolidation plan to optimize financial dynamics.",
+      "rationale": "A consolidation plan can improve cash flow while addressing any financial pressure caused by the existing AECB alert.",
+      "execution_steps": [
+        "Evaluate existing personal loan conditions with the client.",
+        "Present the advantages of the Personal Loan Consolidation Plan.",
+        "Facilitate the necessary steps for integration if the client agrees."
+      ],
+      "expected_outcome": "Reduction in financial strain and better expense management.",
+      "data_supporting_action": "Loan Agent suggests consolidation based on current DTI ratio and financial status."
+    },
+    {
+      "action_number": 4,
+      "priority": "MEDIUM",
+      "action_description": "Discuss health and retirement insurance plans relevant to the client's life stage.",
+      "rationale": "The absence of active insurance policies indicates the client may benefit from tailored coverage.",
+      "execution_steps": [
+        "Explain the importance of financial protection through insurance.",
+        "Present the MetLife Critical Illness Care Plus Plan and Maash Retirement Plan.",
+        "Highlight the benefits of securing family health and future stability."
+      ],
+      "expected_outcome": "Enhanced financial security through insurance coverage to mitigate unforeseen risks.",
+      "data_supporting_action": "Bancassurance Agent recommendations based on lifecycle stage and current insurance status."
+    },
+    {
+      "action_number": 5,
+      "priority": "MEDIUM",
+      "action_description": "Recommend the establishment of a bank-managed investment account to diversify idle CASA balances.",
+      "rationale": "Diversification of the CASA balance can provide increased returns aligning with the client's financial goals and risk profile.",
+      "execution_steps": [
+        "Introduce the concept of a managed investment account.",
+        "Demonstrate its potential for growth and return outcomes.",
+        "Assist the client in setting up the contracted account."
+      ],
+      "expected_outcome": "The client achieves optimal financial utilization of CASA balances.",
+      "data_supporting_action": "Banking Agent recommends utilizing CASA for balanced mutual funds or analogous investments."
+    }
+  ],
+  "talking_points": [
+    {
+      "talking_point_number": 1,
+      "talking_point_text": "Address the AECB alert for the overdue amount of AED 203 for a Communication Service.",
+      "supporting_data": "Manager and Loan Agent mentioned single alert with specific details.",
+      "when_to_use": "Initiate when discussing current financial standing."
+    },
+    {
+      "talking_point_number": 2,
+      "talking_point_text": "Spending review reveals a monthly expense of AED 17,694 primarily on essential goods and services.",
+      "supporting_data": "Service stations comprise AED 5,484 in monthly spending.",
+      "when_to_use": "Use when evaluating potential budgeting strategies or new financial products."
+    },
+    {
+      "talking_point_number": 3,
+      "talking_point_text": "The client's CASA account holds more than AED 23,600, indicating possible allocation opportunities.",
+      "supporting_data": "The Manager Agent highlighted this figure.",
+      "when_to_use": "When discussing their current savings and possible product recommendations."
+    },
+    {
+      "talking_point_number": 4,
+      "talking_point_text": "Explore tailored investment strategies including low-risk equity and diversified funds.",
+      "supporting_data": "Investment Agent recommendations prominently feature such products.",
+      "when_to_use": "To elaborate on investment options that suit the R4 risk profile."
+    },
+    {
+      "talking_point_number": 5,
+      "talking_point_text": "Discuss personal needs regarding health coverage and retirement planning.",
+      "supporting_data": "The Bancassurance Agent noted an absence of insurance coverage and the nearing 'Empty Nester' lifecycle stage.",
+      "when_to_use": "When assessing long-term financial goals and protection requirements."
+    }
+  ],
+  "engagement_questions": [
+    {
+      "question_number": 1,
+      "question_text": "Could you provide more details about your communication service account status related to the AECB alert?",
+      "context": "AECB alert of AED 203 overdue reported by Manager and Loan agents.",
+      "purpose": "To clarify and resolve the outstanding issue to restore financial standing.",
+      "follow_up_action": "Assist the client in settling the overdue amount or disputing incorrect charges."
+    },
+    {
+      "question_number": 2,
+      "question_text": "Have you considered exploring investment options to grow your current savings?",
+      "context": "Current CASA Account holding of AED 23,647.53.",
+      "purpose": "Introduce the concept of asset growth through investments.",
+      "follow_up_action": "Provide information about low-risk investment products aligning with the R4 profile."
+    },
+    {
+      "question_number": 3,
+      "question_text": "Would you be interested in discussing retirement or health insurance options?",
+      "context": "Client's lifecycle stage indicates a need for risk mitigation and future planning.",
+      "purpose": "Explore the client's interest in financial protection and long-term planning.",
+      "follow_up_action": "Mention the MetLife Critical Illness Care Plus Plan and Maash Retirement Plan."
+    },
+    {
+      "question_number": 4,
+      "question_text": "Could we review your current loan terms to see if there’s an opportunity for optimization?",
+      "context": "Indication of a personal loan and negative DTI ratio in the Loan Agent report.",
+      "purpose": "Clarify loan conditions and present beneficial refinancing options.",
+      "follow_up_action": "Review personal loan consolidation options for the client's consideration."
+    },
+    {
+      "question_number": 5,
+      "question_text": "Are there any large financial goals or future plans you would like assistance planning for?",
+      "context": "The Manager Agent mentioned an absence of investments, indicating growth opportunities.",
+      "purpose": "Understand the client's aspirations and align product recommendations accordingly.",
+      "follow_up_action": "Design a financial plan to meet the client’s stated goals."
+    }
+  ],
+  "product_strategies": [
+    {
+      "product_category": "Investment",
+      "recommended_products": [
+        "AB SICAV I - Low Volatility Equity Portfolio AD USD Inc",
+        "Schroder International Selection Fund Asian Equity Yield A Distribution USD MF"
+      ],
+      "client_fit_rationale": "The client has a moderate R4 risk profile and significant capacity for strategic and balanced investment. Diversified funds align well with these attributes.",
+      "conversation_approach": "Discuss the advantages and tailored nature of the recommended funds, highlighting potential gains and associated risks.",
+      "expected_investment_amount": "AED 75,000",
+      "supporting_data_summary": [
+        "Current AUM is AED 0, indicating room for investment.",
+        "The Investment Agent noted an R4 risk profile, recommending diversified low-risk funds."
+      ]
+    },
+    {
+      "product_category": "Loan",
+      "recommended_products": [
+        "FAB Personal Loans",
+        "Personal Loan Consolidation Plan"
+      ],
+      "client_fit_rationale": "The client has a notable borrowing capacity based on a negative DTI ratio and solid annual income.",
+      "conversation_approach": "Focus on advantages of consolidating existing loans and easing payment management.",
+      "expected_investment_amount": null,
+      "supporting_data_summary": [
+        "Loan Agent noted an AECB alert and suggested leveraging the client's lending capacity for financial optimization."
+      ]
+    },
+    {
+      "product_category": "Banking",
+      "recommended_products": [
+        "Bank Managed Investment Account",
+        "Balanced Mutual Funds"
+      ],
+      "client_fit_rationale": "The suggested bank-managed accounts suit the client's moderate risk profile and enable increased return potential from the background CASA balance.",
+      "conversation_approach": "Propose how these products could enhance the client's portfolio performance and liquidity management.",
+      "expected_investment_amount": null,
+      "supporting_data_summary": [
+        "Manager highlighted an unallocated CASA balance of AED 23,647.53.",
+        "Banking Agent noted investment potential for liquidity."
+      ]
+    },
+    {
+      "product_category": "Bancassurance",
+      "recommended_products": [
+        "MetLife Critical Illness Care Plus Plan",
+        "Maash Retirement Plan"
+      ],
+      "client_fit_rationale": "The client lacks insurance coverage, which poses a significant risk heading into later life stages.",
+      "conversation_approach": "Suggest securing the client's and families' future through life and health insurance.",
+      "expected_investment_amount": null,
+      "supporting_data_summary": [
+        "Bancassurance Agent suggested health and retirement insurance aligned with lifecycle stage and financial goals."
+      ]
+    }
+  ]
+}

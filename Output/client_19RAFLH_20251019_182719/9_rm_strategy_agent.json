@@ -1,0 +1,175 @@
+{
+  "client_id": "19RAFLH",
+  "executive_summary": "The client, identified as 'XYZZHXYZR GFH12HXYZGFHGFHXYZD SXYZ12L,' is a 54-year-old individual in the Wealth Management segment with a balanced risk profile (R4). With a relationship tenure of 9 years, the client exhibits indicators of financial opportunities and challenges. Key points include zero current AUM, significant AECB alerts regarding overdue loans, a net worth evidenced by a mortgage loan balance, and needs for optimized asset allocation and effective liquidity management. Strategic recommendations include addressing immediate compliance and financial concerns, exploring investment and loan opportunities, and assessing insurance and banking solutions that cater to the client's lifecycle and financial situation.",
+  "rm_id": "FAB12309",
+  "client_name": "XYZZHXYZR GFH12HXYZGFHGFHXYZD SXYZ12L",
+  "client_segment": "WEALTH MANAGEMENT",
+  "relationship_tenure": 9.0,
+  "current_aum_aed": "0",
+  "risk_profile": "R4",
+  "aecb_alerts_count": 5,
+  "aecb_status": "5 alerts: 2x Credit Card (overdue AED 0.0), 2x Car Loan (overdue AED 15,168), 1x Mortgage (amount AED 3,350,000)",
+  "priority_actions": [
+    {
+      "action_number": 1,
+      "priority": "CRITICAL",
+      "action_description": "Facilitate the immediate update of the client's KYC documentation, ensuring it adheres to compliance standards.",
+      "rationale": "The KYC data is reported expired for over 111 days, which is a compliance risk that must be mitigated.",
+      "execution_steps": [
+        "Inform the client of the KYC update requirement and provide guidance on required documentation.",
+        "Prioritize the client's documents for verification.",
+        "Complete the KYC update process and communicate confirmation to the client."
+      ],
+      "expected_outcome": "The client achieves compliance, enhancing trust and enabling further financial activities.",
+      "data_supporting_action": "Manager and Compliance Agents report KYC expiration for 111 days."
+    },
+    {
+      "action_number": 2,
+      "priority": "CRITICAL",
+      "action_description": "Address outstanding AECB alerts regarding overdue Car Loan and evaluate client's financial situation to mitigate these debts.",
+      "rationale": "The client has 5 alerts, of which two are overdue car loans totaling AED 15,168, as indicated by Manager and Loan Agents.",
+      "execution_steps": [
+        "Schedule a meeting with the client to understand the background of the overdue loans.",
+        "Discuss refinancing opportunities with tailored repayment options.",
+        "Submit necessary documents for loan refinancing to mitigate credit risk."
+      ],
+      "expected_outcome": "Reduced overdue loans and improved AECB score contributing to financial stability.",
+      "data_supporting_action": "Manager and Loan Agents identify overdue car loans with detailed information on amounts and terms."
+    },
+    {
+      "action_number": 3,
+      "priority": "HIGH",
+      "action_description": "Analyze the significant reduction in CASA balance and explore product solutions to ensure liquidity and financial flexibility.",
+      "rationale": "Recent CASA balance reduction signals liquidity challenges that may affect the client's financial security.",
+      "execution_steps": [
+        "Review the client's recent transactions to identify causes for financial outflows.",
+        "Discuss suitable products such as personal loans or credit line facilities.",
+        "Propose a strategy for effective cash flow management."
+      ],
+      "expected_outcome": "Improved cash flow management and client confidence.",
+      "data_supporting_action": "Banking Agent highlights a 68.7% reduction in CASA balance over recent months."
+    }
+  ],
+  "talking_points": [
+    {
+      "talking_point_number": 1,
+      "talking_point_text": "Our records indicate a significant change in your CASA balance, which might suggest increased financial requirements.",
+      "supporting_data": "Recent observations show a 68.7% reduction in CASA balance, highlighting potential liquidity needs.",
+      "when_to_use": "During the discussion on current financial stability and liquidity needs."
+    },
+    {
+      "talking_point_number": 2,
+      "talking_point_text": "Your current AECB alerts highlight opportunities to optimize your financial liabilities.",
+      "supporting_data": "Five alerts are present, including overdue car loans (AED 15,168) and an active mortgage.",
+      "when_to_use": "When addressing AECB alerts and discussing financial stability strategies."
+    },
+    {
+      "talking_point_number": 3,
+      "talking_point_text": "Exploring targeted investment opportunities can align with your balanced risk appetite and financial objectives.",
+      "supporting_data": "Manager and Investment Agents highlight potential investments suitable for a balanced portfolio.",
+      "when_to_use": "During the discussion on potential investment opportunities."
+    },
+    {
+      "talking_point_number": 4,
+      "talking_point_text": "Introducing health and wealth management may enhance your overall financial planning.",
+      "supporting_data": "Bancassurance Agent's recommendations include investment-linked insurance schemes.",
+      "when_to_use": "While discussing long-term security and wealth-building strategies with the client."
+    },
+    {
+      "talking_point_number": 5,
+      "talking_point_text": "Refinancing your current auto loans can assist in improving your financial stability.",
+      "supporting_data": "Manager and Loan Agents recommend refinancing two overdue car loans (AED 15,168 in total).",
+      "when_to_use": "While addressing existing vehicle loan obligations."
+    }
+  ],
+  "engagement_questions": [
+    {
+      "question_number": 1,
+      "question_text": "Can you provide insights into the recent fluctuations in your CASA account?",
+      "context": "CASA balance has decreased by 68.7% in recent months.",
+      "purpose": "To identify the reasons for changes in liquidity.",
+      "follow_up_action": "Suggest suitable solutions for effective cash flow management."
+    },
+    {
+      "question_number": 2,
+      "question_text": "Could you share more information about the circumstances surrounding your AECB alerts?",
+      "context": "The client has five AECB alerts including overdue amounts.",
+      "purpose": "To understand and address financial challenges affecting the client's credit profile.",
+      "follow_up_action": "Evaluate refinancing options to mitigate overdue liabilities."
+    },
+    {
+      "question_number": 3,
+      "question_text": "Are you open to discussing investment options that align with your balanced risk profile?",
+      "context": "The client exhibits a balanced R4 risk appetite.",
+      "purpose": "To align investment products with the client's financial goals.",
+      "follow_up_action": "Propose aligned investment products under a balanced-growth strategy."
+    },
+    {
+      "question_number": 4,
+      "question_text": "Have you considered investment-linked insurance solutions to meet long-term goals?",
+      "context": "The client has no existing insurance coverage per Bancassurance Agent insights.",
+      "purpose": "To provide a safety net and enhance financial growth.",
+      "follow_up_action": "Present recommended investment-linked insurance products."
+    },
+    {
+      "question_number": 5,
+      "question_text": "Are there specific goals or projects you would like to accomplish in the next 1-2 years?",
+      "context": "The client has low debt-to-income ratio and high lending capacity.",
+      "purpose": "To explore personalized financial products such as personal loans.",
+      "follow_up_action": "Customize product offerings to meet the client’s goals."
+    }
+  ],
+  "product_strategies": [
+    {
+      "product_category": "Investment",
+      "recommended_products": [
+        "Schroder International Selection Fund Asian Equity Yield A Distribution USD MF",
+        "Emirate of Dubai United Arab E (Government Bond Fixed, ISIN: XS1062038143)"
+      ],
+      "client_fit_rationale": "The selected investment products align with the client's balanced risk profile and income level, targeting both sectoral growth and financial security.",
+      "conversation_approach": "Discuss the client's investment goals and explain how these products meet their balanced growth strategy preferences.",
+      "expected_investment_amount": "15% of the investment portfolio.",
+      "supporting_data_summary": [
+        "Investment Agent recommended a balanced strategy comprising equity fund and government bond."
+      ]
+    },
+    {
+      "product_category": "Loan",
+      "recommended_products": [
+        "FAB Auto Loan Refinancing",
+        "FAB Personal Loan"
+      ],
+      "client_fit_rationale": "These products address the client's immediate financial challenges, including overdue loans and potential short-term liquidity needs.",
+      "conversation_approach": "Open a discussion on their current liabilities and lending capacity to present the solutions matched to their needs.",
+      "expected_investment_amount": "336000 AED",
+      "supporting_data_summary": [
+        "Loan Agent identified overdue car loans totaling AED 15,168 and highlighted lending capacity of AED 336,000."
+      ]
+    },
+    {
+      "product_category": "Banking",
+      "recommended_products": [
+        "FAB Credit Line Facility"
+      ],
+      "client_fit_rationale": "Address liquidity changes and support immediate financial needs while providing financial flexibility.",
+      "conversation_approach": "Review recent financial behavior to identify suitable banking services and explain the benefits of proposed products.",
+      "expected_investment_amount": "As needed",
+      "supporting_data_summary": [
+        "Banking Agent reported significant CASA balance reduction, indicating reduced liquidity."
+      ]
+    },
+    {
+      "product_category": "Bancassurance",
+      "recommended_products": [
+        "International Wealth Builder",
+        "Future Invest Guaranteed Maturity"
+      ],
+      "client_fit_rationale": "These products provide both insurance coverage and investment opportunities, suitable for the client's current lifecycle stage and financial objectives.",
+      "conversation_approach": "Discuss the client's insurance needs and how these products offer growth potential alongside protection.",
+      "expected_investment_amount": "To be determined in consultation.",
+      "supporting_data_summary": [
+        "Bancassurance Agent highlights no existing coverage and the opportunity to introduce tailored financial solutions."
+      ]
+    }
+  ]
+}

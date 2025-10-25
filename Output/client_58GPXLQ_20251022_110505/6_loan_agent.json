@@ -1,0 +1,21 @@
+{
+  "client_id": "58GPXLQ",
+  "RM_id": null,
+  "annual_income_aed": "1200000.0",
+  "total_outstanding_aed": "238848.03",
+  "debt_to_income_ratio": "19.9",
+  "estimated_lending_capacity_aed": "241151.97",
+  "aecb_alerts_count": 7,
+  "aecb_summary": "7 alerts: 2x Credit Facility (AED 200,000), 5x Communication Services (amount not provided)",
+  "product_recommendations": [
+    {
+      "product_name": "Elite Line of Credit",
+      "justification": "With a strong annual income of AED 1.2 million and a low DTI of 19.9%, the Elite Line of Credit aligns perfectly for financial flexibility. The client shows no immediate need for large loans, highlighting the suitability of a revolving credit facility for managing diverse financial needs."
+    },
+    {
+      "product_name": "Luxury Auto Loan",
+      "justification": "Given the client’s high income and wealth management segment, the Luxury Auto Loan product can support potential needs for an elite-level vehicle financing at competitive rates, accommodating their high-net-worth status."
+    }
+  ],
+  "Agent_Recommends": "The client showcases substantial lending capacity with a low debt-to-income ratio of 19.9%. With existing AECB alerts predominantly related to communication services and credit facilities, combined with their high income and wealth status, tailored recommendations include the Elite Line of Credit for versatile credit access and the Luxury Auto Loan for potential elite vehicle financing."
+}

@@ -1,0 +1,23 @@
+{
+  "client_id": "10ALFHG",
+  "client_name": "DHPQRPQRSHXYZNXYZ S12GFHXYZNGXYZ BXYZNDXYZRXYZ P12SSPQRGTREDXYZ",
+  "age": 48.0,
+  "risk_appetite": "Low",
+  "segment": "Wealth Management",
+  "subsegment": "Elite Standard",
+  "rm_id": "FAB11570",
+  "rm_name": "Kh12shbTRETRE Ph12lwXYZnQWE",
+  "annual_income_aed": "0",
+  "aum_aed": "0",
+  "casa_balance_aed": "1165.37",
+  "relationship_tenure_years": 17.0,
+  "kyc_expiry_date": "2027-02-20",
+  "aecb_alerts_count": 11,
+  "aecb_summary": "11 alerts: 8x Credit Cards, 2x Auto Installment (AED 262,794), 1x Covered Card",
+  "immediate_actions": [
+    "Expired Fixed Deposit (AED 675,000) on 2024-12-02. Follow-up required.",
+    "Significant decrease in CASA balance, suggest reviewing Loan products."
+  ],
+  "downstream_summary": "AECB alerts received for Credit Card and Auto Installments (AED 262,794); a CASA balance decrease observed by 92.3% indicating potential liquidity constraints.",
+  "executive_summary": "Client is a Wealth Management segment customer, with a low risk profile and no explicit income data available. Key immediate action includes addressing an expired Fixed Deposit of AED 675,000. CASA balance decreased by 92.3%, suggesting potential liquidity challenges. Spending on caterers dominates recent transactions (84.49 AED across 2 transactions)."
+}

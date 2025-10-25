@@ -1,0 +1,10 @@
+{
+  "client_id": "58GPXLQ",
+  "risk_appetite": "R4",
+  "risk_level": 4,
+  "risk_segment": "balanced",
+  "kyc_status": "valid until 2025-11-22",
+  "aecb_status": "7 alerts: 5x Credit Card (AED 455,000 total limits), 2x Communication Services (additional details shared separately)",
+  "investment_guidelines": "Diversify portfolio with a 45% allocation to alternative investments, 15% into equities and fixed income, and 25% into money market assets as per deviation recommendations.",
+  "Agent_Recommends": "The client's risk appetite and financial status present an opportunity for portfolio diversification focusing on alternative and liquid investments. This approach will align closely with the calculated risk capability and life stage, ensuring steady asset growth."
+}

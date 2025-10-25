@@ -1,0 +1,10 @@
+{
+  "client_id": "34RRFHA",
+  "risk_appetite": "R6",
+  "risk_level": 6,
+  "risk_segment": "equity",
+  "kyc_status": "Valid - Expires 2027-03-04",
+  "aecb_status": "No AECB alerts or inquiries detected.",
+  "investment_guidelines": "Portfolio diversification recommended; focus needed on reallocation at current equity proportion of 85%.",
+  "Agent_Recommends": "Based on the strong equity concentration of the client's portfolio and their sophisticated status, we recommend realigning investments to include diversifying assets, such as fixed income and money markets. The lack of AECB alerts and active KYC status also allow a favorable environment for immediate portfolio enhancement actions."
+}

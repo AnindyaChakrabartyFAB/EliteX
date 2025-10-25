@@ -1,0 +1,15 @@
+{
+  "client_id": "10APAAP",
+  "RM_id": null,
+  "product_recommendations": [
+    {
+      "product_name": "Schroder International Selection Fund Asian Equity Yield A Distribution USD MF",
+      "justification": "This fund aligns with the client's R4 risk profile and targets equity exposure in the Asia Pacific region, improving portfolio diversification while leveraging the region's growth potential and offering an annualized 5-year return of 6.03%."
+    },
+    {
+      "product_name": "AB SICAV I - Low Volatility Equity Portfolio AD USD Inc",
+      "justification": "Designed for moderate risk with a focus on low volatility equity securities, this product aims to provide steady capital growth that aligns well with the client's balanced risk preference. Furthermore, it demonstrates a strong 5-year annualized return of 9.40%, offering attractive risk-adjusted returns for equity allocations."
+    }
+  ],
+  "Agent_Recommends": "Considering the client's zero-current allocation in all investment types, prioritizing diversification into growth funds and low-risk bonds is advisable. The selected funds cater to the client's R4 risk appetite, promoting a balanced approach between equity and debt investments for long-term growth and stability."
+}

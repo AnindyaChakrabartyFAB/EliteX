@@ -1,0 +1,15 @@
+{
+  "client_id": "10FHHQK",
+  "total_casa_balance_aed": "21804.05",
+  "product_recommendations": [
+    {
+      "product_name": "FAB Ultra Checking Account",
+      "justification": "Given the client's current CASA balance trends and the dormancy of an existing account, transitioning to an account like FAB Ultra Checking can enhance account activity while providing tailored benefits such as unlimited free transactions and higher transaction limits, aligning with the Wealth Management segment requirements."
+    },
+    {
+      "product_name": "FAB Money Market Fund",
+      "justification": "To address the negative CASA balance trends and the client's risk tolerance, we recommend allocating funds into a Money Market Fund. This ensures liquidity while providing modest returns to align with a medium-risk profile."
+    }
+  ],
+  "Agent_Recommends": "Despite the decent CASA balance of AED 21,804.05, there is a notable downward trend in deposits. It's advisable to reactivate the dormant account and consider reallocating funds to a Money Market Fund for better returns, improving liquidity and financial positioning."
+}

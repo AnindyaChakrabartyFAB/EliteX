@@ -1,0 +1,10 @@
+{
+  "client_id": "56QPHKX",
+  "risk_appetite": "R1",
+  "risk_level": 1,
+  "risk_segment": "fixed_income",
+  "kyc_status": "Valid until 2025-09-13.",
+  "aecb_status": "3 alerts on credit activities, including covered card inquiries.",
+  "investment_guidelines": "Focus on stable, income-driven investments within the risk tolerance level to ensure portfolio diversification and alignment with current financial standing.",
+  "Agent_Recommends": "Given the client's low risk tolerance (R1) and stable financial position, diversification of the existing portfolio with a preference for fixed-income securities is advised. Address potential concerns from AECB alerts proactively."
+}

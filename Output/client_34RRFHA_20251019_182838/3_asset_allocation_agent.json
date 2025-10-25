@@ -1,0 +1,9 @@
+{
+  "client_id": "34RRFHA",
+  "risk_appetite": "R6",
+  "current_allocation": "Equities: 85% (AED 63,319,541.17), Fixed Income: 12.31% (AED 9,158,072.68), Multi Asset: 2.57% (AED 1,917,147.19).",
+  "target_allocation": "Money Market: 41.67%, Equities: 58.33%.",
+  "allocation_gaps": "Equities is overweight by +26.77%, Money Market is underweighted by -41.67%, and Fixed Income exceeding target by +12.31%.",
+  "total_rebalancing_amount_aed": "107317359.79",
+  "Agent_Recommends": "Immediate rebalancing action is needed to reduce an overweight position in equities while increasing allocations in Money Market and Equities to align with the target distribution levels, fostering diversification."
+}

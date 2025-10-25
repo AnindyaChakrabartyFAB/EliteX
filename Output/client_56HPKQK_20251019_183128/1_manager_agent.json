@@ -1,0 +1,23 @@
+{
+  "client_id": "56HPKQK",
+  "client_name": "SXYZRGFHXYZD H12SSPQRQWEN TREGFHXYZR TREGFHXYZR",
+  "age": 42.0,
+  "risk_appetite": "R5",
+  "segment": "WEALTH MANAGEMENT",
+  "subsegment": "Elite Standard",
+  "rm_id": "FAB7759",
+  "rm_name": "GFHXYZrQWETRE PQRndXYZrXYZTREs",
+  "annual_income_aed": "600000",
+  "aum_aed": "594792.21",
+  "casa_balance_aed": "247510.43",
+  "relationship_tenure_years": 2.23,
+  "kyc_expiry_date": "2025-10-20",
+  "aecb_alerts_count": 1,
+  "aecb_summary": "1 alert: Communication Services (AED 683.0 billed)",
+  "immediate_actions": [
+    "KYC expiry imminent (2025-10-20): Urgent renewal required",
+    "Open AECB alert for Credit Facility Opened - AED 683 (billed)"
+  ],
+  "downstream_summary": "Client exhibits significant spending behavior in Government Services (AED 2756.25), Grocery Stores (AED 598.5 across 2 transactions), and Government Miscellaneous Services (AED 559.12). A sophisticated investor is in a growth-oriented risk segment with assets concentrated entirely in a single investment product.",
+  "executive_summary": "The client, with an annual income of AED 600,000 and an Asset Under Management of AED 594,792.21, displays high growth potential and a risk appetite of R5. Immediate actions include renewal of KYC which is set to expire imminently on 2025-10-20 and addressing an active AECB alert for a billed credit facility service of AED 683. The client has accumulated AUM mostly in a single investment and exhibits discretionary spending, with significant liquidity in CASA accounts suitable for diversified investments."
+}

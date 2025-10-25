@@ -1,0 +1,15 @@
+{
+  "client_id": "10FPRKH",
+  "total_casa_balance_aed": "23647.53",
+  "product_recommendations": [
+    {
+      "product_name": "Bank Managed Investment Account",
+      "justification": "Considering the client's increased CASA balance of AED 23,647.53 and significant liquidity, this solution provides diversified investment options aligned with the client's moderate risk tolerance, optimizing returns while maintaining portfolio alignment."
+    },
+    {
+      "product_name": "Balanced Mutual Funds",
+      "justification": "Suitable for the client's mid-career risk profile, these funds diversify investment in equities and fixed-income securities, serving to optimize the significant idle cash in the client's CASA balance while adhering to their assessed risk appetite."
+    }
+  ],
+  "Agent_Recommends": "The client has an unused CASA balance that suggests an opportunity to optimize idle funds. Suggest exploring managed investment accounts or balanced mutual funds as they align with the client's income capacity and risk profile. Additionally, no action needed for idle cash or large inflows detected in the short term."
+}

@@ -1,0 +1,11 @@
+client_id,first_name,last_name,customer_profile_banking_segment,customer_profile_subsegment,risk_segment,risk_appetite,tenure,kyc_expiry_date,days_until_kyc_expiry,total_securities,total_aum_usd,aecb_alert_count,aecb_product_types
+56HPKQK,SXYZRGFHXYZD , H12SSPQRQWEN TREGFHXYZR TREGFHXYZR,WEALTH MANAGEMENT,Elite Standard,growth,R5,2.23,2025-10-20,5,1,5947922.1,1,Communication Services        
+10QHKPA,GFHTREHXYZGFHGFHXYZD , XYZBD12LLXYZ GFH NTRETRER GFHTREHXYZGFHGFHXYZD,WEALTH MANAGEMENT,Elite Standard,fixed_income,R1,22.53,2025-10-28,13,2,8998281.0,6,"Communication Services        , Credit Card        "
+47KFLLH,HQWE12S , QWENVPQRST QWEN CTREGFHGFH PQRNTR GFHXYZNG,WEALTH MANAGEMENT,Elite Standard,equity,R6,2.72,2025-11-03,19,8,235627337.6,1,Communication Services        
+58GPXLQ,SRPQRPQRJQWET , CHXYZLXYZKKXYZL,WEALTH MANAGEMENT,Elite Standard,balanced,R4,1.63,2025-11-22,38,14,594362105.0,5,"Communication Services        , Credit Card        "
+46GKGKF,GFHXYZKSYGFH , KRQWEPPXYZ,WEALTH MANAGEMENT,Elite Standard,equity,R6,4.38,2025-12-10,56,1,238863931.6,4,Communication Services        
+56FAHRF,XYZNDRPQRQWE , FRTRELTREV,WEALTH MANAGEMENT,Elite Standard,balanced,R3,2.26,2025-12-12,58,3,30407488.8,1,Communication Services        
+44RXFGX,SHXYZFQWEQ , H12SSXYZQWENQWE,WEALTH MANAGEMENT,Elite Standard,growth,R5,4.82,2025-12-12,58,1,8398380.5,5,"Covered card        , Credit Card        "
+15GRGFK,YTRE12SPQRF , GHLTRE12GFH XYZLQWE XYZBD12LLXYZ KHTRE12RQWE,WEALTH MANAGEMENT,Elite Standard,fixed_income,R1,13.09,2025-12-30,76,2,17960199.8,1,Overdraft         
+57QPXKH,FXYZNQWEYXYZ , GFHXYZGDPQRPQRVXYZ,WEALTH MANAGEMENT,Elite Standard,growth,R5,2.02,2026-01-06,83,1,9183934.7,1,Communication Services        
+19AHKLG,XYZGFHXYZL , GFH12BXYZRXYZK XYZQPQRPQRL GFHXYZDHQWE,WEALTH MANAGEMENT,Elite Standard,fixed_income,R1,7.54,2026-02-03,111,1,153672.4,1,Credit Card        

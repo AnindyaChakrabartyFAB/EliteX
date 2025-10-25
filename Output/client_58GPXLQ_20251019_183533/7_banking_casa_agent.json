@@ -1,0 +1,15 @@
+{
+  "client_id": "58GPXLQ",
+  "total_casa_balance_aed": "39707.44",
+  "product_recommendations": [
+    {
+      "product_name": "FAB Investment Plan",
+      "justification": "Considering the client's balanced risk profile and substantial drop in CASA balance (-70%), reallocating a portion of funds into a diversified investment plan could optimize returns while maintaining exposure to a combination of stable and growth-oriented assets."
+    },
+    {
+      "product_name": "Elite Current Plus Account",
+      "justification": "Switching to an Elite Current Plus Account could provide higher benefits, including better money management tools and added associated services, aligning with the client's wealth management needs."
+    }
+  ],
+  "Agent_Recommends": "Review the client's financial needs given the significant decline in their CASA balance. Offer investment options suited to their R4 balanced risk profile to better utilize idle resources and discuss account options that fit their elite standard status."
+}

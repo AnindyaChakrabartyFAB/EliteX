@@ -1,0 +1,15 @@
+{
+  "client_id": "10FPRKH",
+  "RM_id": null,
+  "product_recommendations": [
+    {
+      "product_name": "AB SICAV I - Low Volatility Equity Portfolio AD USD Inc",
+      "justification": "This fund enhances capital growth potential while maintaining reduced volatility, which aligns well with a conservative risk profile such as R4. Diversification into stable emerging markets adds further resilience."
+    },
+    {
+      "product_name": "Schroder International Selection Fund Asian Equity Yield A Distribution USD MF",
+      "justification": "This equity-related fund provides exposure to Asian markets, aiming for income and capital growth. With an R4 risk profile, this aligns with the client's income-oriented investment goals over the recommended three to five-year horizon."
+    }
+  ],
+  "Agent_Recommends": "As the client currently holds no active investments, there is significant opportunity to align portfolio distribution with target asset allocation goals, including 25% in money markets, 15% fixed income, 15% equities, and 45% in alternative investments, while ensuring risk alignment with the R4 profile. An immediate focus on diversified funds could serve the dual purposes of moderate risk and sustainable returns."
+}

@@ -1,0 +1,15 @@
+{
+  "client_id": "19RAFLH",
+  "total_casa_balance_aed": "1297.58",
+  "product_recommendations": [
+    {
+      "product_name": "FAB Personal Loan",
+      "justification": "The significant decrease in CASA balance by 68.7% may indicate liquidity challenges or substantial financial obligations. A Personal Loan will provide financial support, ensuring cash flow while meeting the client's immediate monetary needs."
+    },
+    {
+      "product_name": "FAB Credit Line Facility",
+      "justification": "To maintain financial flexibility and address recent CASA outflows, a Credit Line Facility ensures access to funds whenever needed, helping the client manage unexpected expenses or investment opportunities."
+    }
+  ],
+  "Agent_Recommends": "The client's CASA balance has decreased significantly over recent months, suggesting a potential need for additional liquidity. It is recommended to provide financial flexibility through suitable loan products like a Personal Loan or Credit Line Facility to support the client's immediate and potential financial requirements."
+}

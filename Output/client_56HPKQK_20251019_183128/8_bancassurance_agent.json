@@ -1,0 +1,19 @@
+{
+  "client_id": "56HPKQK",
+  "RM_id": null,
+  "existing_coverage_summary": "The client currently holds no insurance policies or coverage plans.",
+  "age": 42.2,
+  "days_to_birthday": 12,
+  "lifecycle_stage": "Wealth Management; Birthday approaching in 12 days",
+  "product_recommendations": [
+    {
+      "product_name": "MetLife Critical Illness Care Plus Plan",
+      "justification": "Given the client’s high-income status and the lack of existing coverage, this plan secures financial stability during unforeseen health crises, addressing medical cost coverage without immediate financial strain."
+    },
+    {
+      "product_name": "Future Invest Regular Saving",
+      "justification": "With the client’s income and discretionary spending habits, this investment-focused savings plan aligns with the need for diversified financial growth and long-term wealth accumulation."
+    }
+  ],
+  "Agent_Recommends": "This client has a high potential and no existing insurance coverage, presenting a key opportunity to introduce critical illness coverage and investment-linked savings plans. Their wealth management status and upcoming birthday provide an ideal moment for personalized recommendations."
+}

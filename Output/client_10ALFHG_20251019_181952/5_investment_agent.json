@@ -1,0 +1,19 @@
+{
+  "client_id": "10ALFHG",
+  "RM_id": "Kh12shbTRETRE Ph12lwXYZnQWE",
+  "product_recommendations": [
+    {
+      "product_name": "Schroder International Selection Fund Asian Equity Yield A Distribution USD MF",
+      "justification": "This fund aligns with the client's target asset allocation by offering exposure to equities in the Asia-Pacific region, addressing the negative gap in equities. It complements the client's R4 risk profile with an annualized 5-year return of 6.03% and a Morningstar rating of 4."
+    },
+    {
+      "product_name": "Kotak Funds - India Midcap Fund A USD Acc",
+      "justification": "This mid-cap equity fund aligns with the client's interest in obtaining high returns and diversifying the current exposure. It has a strong track record of a 5-year annualized return of 15.96% and aligns with the R4 risk tolerance."
+    },
+    {
+      "product_name": "Allianz Global Investors Fund - Allianz Dynamic Asian High Yield Bond AT USD",
+      "justification": "This bond fund provides an opportunity for fixed-income diversification tailored to the client's R4 risk profile. It ensures a balance of capital growth and regular income with 3.43% annualized return over 5 years, in line with the client's investment objectives."
+    }
+  ],
+  "Agent_Recommends": "To address the significant gaps in asset allocation (Money Market -25%, Fixed Income -15%, Equities -15%), it is recommended to reinvest the AED 675,000 from the matured fixed deposit into funds that align with the client's risk tolerance (R4). Adding equity and bond exposure, alongside global and emerging market themes, would diversify the portfolio and enhance growth potential."
+}

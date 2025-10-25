@@ -1,0 +1,15 @@
+{
+  "client_id": "56QPHKX",
+  "RM_id": null,
+  "product_recommendations": [
+    {
+      "product_name": "Schroder International Selection Fund Asian Equity Yield A Distribution USD MF",
+      "justification": "This fund aligns with the client's risk profile by offering stable income and exposure to equity markets within the Asia Pacific region. Its 3- and 5-year annualized returns are favorable at 2.20% and 6.03%, respectively, fitting the client's preference for income-focused investments."
+    },
+    {
+      "product_name": "AB - American Income Portfolio A Inc",
+      "justification": "Suitable for the client's risk-tolerant strategy, this fixed-income fund seeks to provide a high level of current income aligned to preserving capital. This aligns well with the client's fixed income dominance and need for diversification."
+    }
+  ],
+  "Agent_Recommends": "The portfolio, currently consisting of one fixed income position valued at AED 500,845.5, aligns with the client's R1 risk profile but exhibits underperformance at -0.87% return since inception. To improve diversification as per allocation objectives, I recommend reallocating a portion of funds to selected income-focused mutual funds for stability and targeted growth."
+}

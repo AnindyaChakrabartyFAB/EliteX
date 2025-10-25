@@ -1,0 +1,10 @@
+{
+  "client_id": "19RAFLH",
+  "risk_appetite": "R4",
+  "risk_level": 4,
+  "risk_segment": "balanced",
+  "kyc_status": "Active",
+  "aecb_status": "5 alerts: 2x Credit Card (overdue AED 0.0), 2x Car Loan (overdue AED 15,168), 1x Mortgage (amount AED 3,350,000)",
+  "investment_guidelines": "Balanced growth strategy aligned with client's preferences for moderate risk tolerance.",
+  "Agent_Recommends": "Despite active KYC and a balanced R4 risk profile, immediate action is needed to address negative information found in AECB due to overdue loan amounts. Investment recommendations should align with steady risk-adjusted growth opportunities, considering expected financial outcomes and immediate obligations."
+}

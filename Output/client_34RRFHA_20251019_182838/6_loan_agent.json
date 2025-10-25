@@ -1,0 +1,21 @@
+{
+  "client_id": "34RRFHA",
+  "RM_id": null,
+  "annual_income_aed": "0",
+  "total_outstanding_aed": "2770091.25",
+  "debt_to_income_ratio": "0",
+  "estimated_lending_capacity_aed": "0",
+  "aecb_alerts_count": 0,
+  "aecb_summary": "No AECB alerts currently reported.",
+  "product_recommendations": [
+    {
+      "product_name": "FAB Wealth Management Refinancing Loan",
+      "justification": "Client possesses two active Wealth Management subscription loans with high outstanding balances totalling AED 2,770,091.25. Providing a refinancing loan could optimize rates given the client's financial capacity and risk segment."
+    },
+    {
+      "product_name": "FAB High Net Worth Portfolio Loan",
+      "justification": "Given the client’s significant assets under management of AED 74.4M and sophisticated risk profile, a portfolio loan tailored for high-net-worth individuals may be a strategic tool for diversifying investments or covering strategic wealth management initiatives."
+    }
+  ],
+  "Agent_Recommends": "The client’s AECB profile is clean without any alerts and features significant assets under management. Existing obligations mainly consist of two substantial Wealth Management loans. There is a strong potential for refinancing options or portfolio loans to assist in enhancing the client’s financial flexibility and investment diversification strategies."
+}

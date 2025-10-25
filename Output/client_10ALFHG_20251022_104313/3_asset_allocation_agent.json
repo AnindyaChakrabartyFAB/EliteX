@@ -1,0 +1,9 @@
+{
+  "client_id": "10ALFHG",
+  "risk_appetite": "R4",
+  "current_allocation": "No current allocation; all categories are 0%.",
+  "target_allocation": "15% Fixed Income, 15% Equities, 25% Money Market, 45% Alternative Investments.",
+  "allocation_gaps": "15% deficit in Fixed Income and Equities, 25% deficit in Money Market, 45% deficit in Alternative Investments.",
+  "total_rebalancing_amount_aed": "0",
+  "Agent_Recommends": "Given the current allocation gaps across all asset types against the R4 risk profile, a structured investment plan addressing each asset class is essential. Priority actions include maximizing Alternative Investments (45%) and other categories, aligning with target objectives towards diversification and achieving financial goals."
+}

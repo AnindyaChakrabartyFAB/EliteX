@@ -1,0 +1,22 @@
+{
+  "client_id": "10ALFHG",
+  "client_name": "DHPQRPQRSHXYZNXYZ S12GFHXYZNGXYZ BXYZNDXYZRXYZ P12SSPQRGTREDXYZ",
+  "age": 48.0,
+  "risk_appetite": "R4",
+  "segment": "WEALTH MANAGEMENT",
+  "subsegment": "Elite Standard",
+  "rm_id": "FAB11570",
+  "rm_name": "Kh12shbTRETRE Ph12lwXYZnQWE",
+  "annual_income_aed": "0",
+  "aum_aed": "0",
+  "casa_balance_aed": "1165.37",
+  "relationship_tenure_years": 17.79,
+  "kyc_expiry_date": "2027-02-20",
+  "aecb_alerts_count": 11,
+  "aecb_summary": "11 alerts: 8x Credit Card, 2x Murabaha Buy/sell Auto (totaling AED 262,794), 1x Covered card (AED unknown)",
+  "immediate_actions": [
+    "Address expired fixed deposit: AED 675,000 on 2024-12-02"
+  ],
+  "downstream_summary": "Client has notable AECB warnings including change in credit limits and new auto financing. CASA balance is significantly low with decreasing trends, indicating potential for loan or BNPL product recommendations. Considering the lack of diversification and cash liquidity, engaging an investment consultant might be beneficial.",
+  "executive_summary": "48-year-old client holding 'Elite Standard' subsegment within 'Wealth Management' segment, managed by RM Kh12shbTRETRE Ph12lwXYZnQWE. Immediate action required includes addressing an expired fixed deposit of AED 675,000 (matured on 2024-12-02). Additionally, client transactions show liquidity concerns with CASA balances significantly reduced and primary spending noted in the 'Caterers' category."
+}

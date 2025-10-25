@@ -1,0 +1,19 @@
+{
+  "client_id": "10ALFHG",
+  "RM_id": null,
+  "product_recommendations": [
+    {
+      "product_name": "AB SICAV I - Low Volatility Equity Portfolio AD USD Inc",
+      "justification": "This fund focuses on global equities with lower volatility, aligning with the client's medium risk tolerance (R4) and offering diversification by including both developed and emerging market equities."
+    },
+    {
+      "product_name": "Schroder International Selection Fund Asian Equity Yield A Distribution USD MF",
+      "justification": "This equity fund invests in Asia Pacific companies excluding Japan, with a focus on providing income and capital growth potential. It aligns with the client's target allocation for equities in a geographic sector with growth potential."
+    },
+    {
+      "product_name": "PIMCO GIS Income Fund E Class USD Income",
+      "justification": "A fixed-income fund offering diversification and consistent yield potential aligns with the target allocation strategy for income generation and risk-adjusted returns in a moderate-risk portfolio."
+    }
+  ],
+  "Agent_Recommends": "The portfolio currently has zero allocations. Recommended investments include targeted funds in equities and fixed income to align with the defined asset allocation goals (e.g., capital growth, risk control). Suitable allocation could boost performance and adhere to goals."
+}

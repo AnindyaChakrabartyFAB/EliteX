@@ -1,0 +1,15 @@
+{
+  "client_id": "46GKGKF",
+  "total_casa_balance_aed": "39613192.59",
+  "product_recommendations": [
+    {
+      "product_name": "FAB Premium Savings Account",
+      "justification": "The client exhibits a high CASA balance of AED 39.6M, which significantly decreased by 25.6% over the last six months. A Premium Savings Account would allow for higher returns while maintaining sufficient liquidity."
+    },
+    {
+      "product_name": "Customized Lending Solutions",
+      "justification": "Given the evident liquidity needs implied by the large decline in CASA balances and significant assets under management, exploring tailored overdraft or credit line solutions could ensure consistent financial flexibility while waiting for reinvestment opportunities."
+    }
+  ],
+  "Agent_Recommends": "Given the substantial CASA balance decrease over six months, the client should consider optimizing idle funds through a higher-yield savings account and discuss customized lending options to ensure financial flexibility while addressing potential liquidity needs."
+}

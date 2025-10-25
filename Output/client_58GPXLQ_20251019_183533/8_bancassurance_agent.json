@@ -1,0 +1,19 @@
+{
+  "client_id": "58GPXLQ",
+  "RM_id": null,
+  "existing_coverage_summary": "The client currently does not hold any insurance coverage under bancassurance.",
+  "age": 47.82,
+  "days_to_birthday": 150,
+  "lifecycle_stage": "Wealth management",
+  "product_recommendations": [
+    {
+      "product_name": "Core Protection Package",
+      "justification": "This comprehensive insurance plan would address critical protection needs as the client currently lacks any insurance coverage. It aligns with the client’s wealth management segment, ensuring long-term financial security."
+    },
+    {
+      "product_name": "Investment-Linked Insurance",
+      "justification": "This type of product aligns well with the client’s risk profile (R4 - balanced) and offers financial growth opportunities combined with insurance coverage. It caters to both protection and investment needs, enhancing asset diversification."
+    }
+  ],
+  "Agent_Recommends": "Your high-value profile suggests the need for establishing a comprehensive insurance plan to protect financial interests. Consider the recommended products designed to blend coverage with investment opportunities for optimal family and financial security."
+}

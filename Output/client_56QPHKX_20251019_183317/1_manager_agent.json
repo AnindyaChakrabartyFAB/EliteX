@@ -1,0 +1,23 @@
+{
+  "client_id": "56QPHKX",
+  "client_name": "SHLTREGFHTRE XYZGRXYZNTREVQWECH",
+  "age": 44.0,
+  "risk_appetite": "R1",
+  "segment": "WEALTH MANAGEMENT",
+  "subsegment": "Elite Standard",
+  "rm_id": "FAB11623",
+  "rm_name": "DQWEnPQRsh ThXYZwXYZnQWE",
+  "annual_income_aed": "600000",
+  "aum_aed": "500845.5",
+  "casa_balance_aed": "1717797.51",
+  "relationship_tenure_years": 2.61,
+  "kyc_expiry_date": "2025-09-13",
+  "aecb_alerts_count": 3,
+  "aecb_summary": "3 alerts: Covered Card inquiries and activities under various descriptions with no overdue balance.",
+  "immediate_actions": [
+    "KYC renewal expired on 2025-09-13.",
+    "Reassess investment diversification as per allocation recommendations."
+  ],
+  "downstream_summary": "Client exhibits stable CASA trends with substantial balances in ISAVE Online Account. Major spending in Duty Free Stores (97% of total spend, AED 42,000) and government, categorizing as a high-net-worth individual.",
+  "executive_summary": "Client SHLTREGFHTRE XYZGRXYZNTREVQWECH holds an annual income of AED 600,000 and a substantial CASA balance of AED 1.71M. Active investments include a fixed income portfolio worth AED 500.85K, with recommendations to diversify. Immediate focus includes resolving the expired KYC renewal and addressing investment concentration and risk mitigation."
+}

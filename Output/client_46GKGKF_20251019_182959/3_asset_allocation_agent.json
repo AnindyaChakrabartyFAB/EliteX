@@ -1,0 +1,9 @@
+{
+  "client_id": "46GKGKF",
+  "risk_appetite": "R6",
+  "current_allocation": "Fixed Income: 100%",
+  "target_allocation": "Equities: 58.33%, Money Market: 41.67%",
+  "allocation_gaps": "Allocated Fixed Income exceeds the target by 100%; underallocated in Equities by 58.33% and Money Market by 41.67%.",
+  "total_rebalancing_amount_aed": "5971598.29",
+  "Agent_Recommends": "Realign the portfolio by selling off fixed income instruments (AED 5,971,598.29) while investing AED 3,483,432.34 into equities and AED 2,488,165.95 into money market funds. This adjustment supports higher growth aligned with the client's risk appetite (R6)."
+}

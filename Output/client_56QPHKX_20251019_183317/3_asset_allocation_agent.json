@@ -1,0 +1,9 @@
+{
+  "client_id": "56QPHKX",
+  "risk_appetite": "R1",
+  "current_allocation": "Fixed Income: 100%.",
+  "target_allocation": "Money Market: 41.67%, Fixed Income: 58.33%, Equities: 0%, Alternative Investments: 0%",
+  "allocation_gaps": "Noticeable deviation from the target allocation includes Fixed Income (+41.67%) and Money Market (-41.67%).",
+  "total_rebalancing_amount_aed": "500845.5",
+  "Agent_Recommends": "Based on the client's R1 risk profile and current allocation predominantly in Fixed Income, a rebalance is recommended with a total of AED 500,845.50 to align with the target allocation. Allocate AED 208,685.63 to Money Market and AED 292,159.88 to Fixed Income to achieve the desired diversification."
+}

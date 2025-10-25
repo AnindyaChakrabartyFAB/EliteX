@@ -1,0 +1,21 @@
+{
+  "client_id": "10FPRKH",
+  "RM_id": null,
+  "annual_income_aed": "539880",
+  "total_outstanding_aed": "-176273.36",
+  "debt_to_income_ratio": "-32.65",
+  "estimated_lending_capacity_aed": "392225.36",
+  "aecb_alerts_count": 1,
+  "aecb_summary": "1 alert: 1x Communications Service (AED 203 overdue)",
+  "product_recommendations": [
+    {
+      "product_name": "FAB Personal Loans",
+      "justification": "The client has an outstanding Personal Loan and excellent borrowing capacity, as indicated by a negative DTI ratio and ample room for additional credit facilities. Refinancing the current loan with favorable terms can alleviate financial pressure and improve cash flow."
+    },
+    {
+      "product_name": "Personal Loan Consolidation Plan",
+      "justification": "The AECB alert for an overdue Communications Service amount suggests a potential need for financial stability. By consolidating debts through a tailored personal loan, the client can manage payments effectively while leverages excellent credit capacity."
+    }
+  ],
+  "Agent_Recommends": "The client has an exemplary DTI leverage, suggesting strong borrowing ability with an annual income of AED 539,880 and estimated lending capacity of AED 392,225. Spending analysis highlights a focus on caterers, service stations, and grocery stores. Based on the existing AECB alert for a Communication Services contract and the presence of an active personal loan, pursuing loan refinancing or consolidation options can improve financial efficiency."
+}

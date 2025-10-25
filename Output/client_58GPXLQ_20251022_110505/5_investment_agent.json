@@ -1,0 +1,15 @@
+{
+  "client_id": "58GPXLQ",
+  "RM_id": null,
+  "product_recommendations": [
+    {
+      "product_name": "Schroder International Selection Fund Asian Equity Yield A Distribution USD MF",
+      "justification": "This fund offers exposure to the equity markets of the Asia Pacific region, allowing for diversification into equities aligned with the client's R4 risk appetite. The fund has demonstrated consistent returns over a 5-year period, contributing to the client's growth objectives."
+    },
+    {
+      "product_name": "Port & Free Zone World FZE",
+      "justification": "As a corporate bonds fixed-interest vehicle with a sound credit rating, this investment provides diversification within fixed-income assets. It complements the client's focus while easing gradual transition to more varied asset classifications."
+    }
+  ],
+  "Agent_Recommends": "Client's portfolio is heavily allocated to fixed income, requiring diversification. Suggested an equity-focused fund targeting Asia Pacific markets and a corporate bond with reliable returns to introduce diversification and align with R4 risk preferences."
+}

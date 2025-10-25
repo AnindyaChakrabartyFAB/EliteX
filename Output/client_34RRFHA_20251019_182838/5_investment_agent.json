@@ -1,0 +1,15 @@
+{
+  "client_id": "34RRFHA",
+  "RM_id": null,
+  "product_recommendations": [
+    {
+      "product_name": "Schroder International Selection Fund Asian Equity Yield A Distribution USD",
+      "justification": "This fund offers an opportunity to diversify the client's current equity holdings with a specific focus on the Asia Pacific market, excluding Japan, aligned with the client's high-risk R6 profile. Its stable 5-year return of 6.03% suggests a promising performance for future returns."
+    },
+    {
+      "product_name": "AB - American Income Portfolio A Inc",
+      "justification": "This fund emphasizes current income and capital preservation—suitable as a complementary addition to mitigate equity overexposure while maintaining fixed income exposure. It aligns with the client's broad asset diversification strategy."
+    }
+  ],
+  "Agent_Recommends": "Client 34RRFHA's portfolio, with significant equity overweight, requires diversification into fixed income and money market instruments. Consider the Schroder Asian Equity Fund for targeted geographic extension and the AB American Income Fund for income-focused bond investments to address the portfolio's structural needs."
+}

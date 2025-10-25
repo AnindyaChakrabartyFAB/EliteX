@@ -1,0 +1,15 @@
+{
+  "client_id": "56HPKQK",
+  "RM_id": "unknown",
+  "product_recommendations": [
+    {
+      "product_name": "Schroder International Selection Fund Asian Equity Yield A Distribution USD",
+      "justification": "This fund provides diversification into the Asia-Pacific (excluding Japan) region, leveraging opportunities in equity and equity-related securities, aligning with the client's R5 growth-oriented risk tolerance. The fund features a Morningstar rating of 4 and offers competitive returns of 6.03% over five years, supporting income and capital growth."
+    },
+    {
+      "product_name": "Schroder International Selection Fund Global Multi-Asset Income",
+      "justification": "The fund delivers an attractive income and growth potential through a diversified portfolio of global assets, supporting the client's need for diversification while adhering to the growth-oriented risk profile. Suitable for mitigating concentration risk currently present."
+    }
+  ],
+  "Agent_Recommends": "The client's current portfolio consists of 1 position with an approximate market value of 594,792 AED, fully concentrated in one multi-asset mutual fund. To broaden diversification and reduce portfolio concentration risks, I recommend adding two targeted funds focusing on income and regional equity diversification, which align with the R5 risk appetite. Both products are selected for their strong track records and strategic sector exposure to promote balanced portfolio growth."
+}

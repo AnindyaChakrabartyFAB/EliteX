@@ -1,0 +1,168 @@
+2025-10-05 12:56:15,319 - INFO - ✅ Connected to Elite PostgreSQL database
+2025-10-05 12:56:15,319 - INFO - 🚀 Starting Elite Database Export
+2025-10-05 12:56:15,319 - INFO - ============================================================
+2025-10-05 12:56:15,338 - INFO - 📊 Found 32 tables to export
+2025-10-05 12:56:15,338 - INFO - 📋 Processing app.client_details...
+2025-10-05 12:56:15,355 - INFO -    📈 Row count: 0
+2025-10-05 12:56:15,355 - INFO -    📊 Sample data rows: 0
+2025-10-05 12:56:15,463 - INFO - ✅ Created Excel file: app_client_details.xlsx
+2025-10-05 12:56:15,469 - INFO - ✅ Applied formatting to app_client_details.xlsx
+2025-10-05 12:56:15,469 - INFO - 📋 Processing core.advisor_portfolio...
+2025-10-05 12:56:15,475 - INFO -    📈 Row count: 3
+2025-10-05 12:56:15,475 - INFO -    📊 Sample data rows: 3
+2025-10-05 12:56:15,483 - INFO - ✅ Created Excel file: core_advisor_portfolio.xlsx
+2025-10-05 12:56:15,492 - INFO - ✅ Applied formatting to core_advisor_portfolio.xlsx
+2025-10-05 12:56:15,492 - INFO - 📋 Processing core.ai_client_insights...
+2025-10-05 12:56:15,498 - INFO -    📈 Row count: 3,870
+2025-10-05 12:56:15,508 - INFO -    📊 Sample data rows: 3870
+2025-10-05 12:56:15,638 - INFO - ✅ Created Excel file: core_ai_client_insights.xlsx
+2025-10-05 12:56:16,108 - INFO - ✅ Applied formatting to core_ai_client_insights.xlsx
+2025-10-05 12:56:16,108 - INFO - 📋 Processing core.ai_client_summaries...
+2025-10-05 12:56:16,116 - INFO -    📈 Row count: 1,071
+2025-10-05 12:56:16,122 - INFO -    📊 Sample data rows: 1071
+2025-10-05 12:56:16,189 - INFO - ✅ Created Excel file: core_ai_client_summaries.xlsx
+2025-10-05 12:56:16,411 - INFO - ✅ Applied formatting to core_ai_client_summaries.xlsx
+2025-10-05 12:56:16,411 - INFO - 📋 Processing core.ai_fund_summaries...
+2025-10-05 12:56:16,430 - INFO -    📈 Row count: 0
+2025-10-05 12:56:16,431 - INFO -    📊 Sample data rows: 0
+2025-10-05 12:56:16,436 - INFO - ✅ Created Excel file: core_ai_fund_summaries.xlsx
+2025-10-05 12:56:16,442 - INFO - ✅ Applied formatting to core_ai_fund_summaries.xlsx
+2025-10-05 12:56:16,442 - INFO - 📋 Processing core.ai_rm_summaries...
+2025-10-05 12:56:16,450 - INFO -    📈 Row count: 4,064
+2025-10-05 12:56:16,460 - INFO -    📊 Sample data rows: 4064
+2025-10-05 12:56:16,600 - INFO - ✅ Created Excel file: core_ai_rm_summaries.xlsx
+2025-10-05 12:56:17,104 - INFO - ✅ Applied formatting to core_ai_rm_summaries.xlsx
+2025-10-05 12:56:17,104 - INFO - 📋 Processing core.asset_allocation...
+2025-10-05 12:56:17,124 - INFO -    📈 Row count: 85
+2025-10-05 12:56:17,126 - INFO -    📊 Sample data rows: 85
+2025-10-05 12:56:17,134 - INFO - ✅ Created Excel file: core_asset_allocation.xlsx
+2025-10-05 12:56:17,152 - INFO - ✅ Applied formatting to core_asset_allocation.xlsx
+2025-10-05 12:56:17,152 - INFO - 📋 Processing core.client_holding...
+2025-10-05 12:56:17,162 - INFO -    📈 Row count: 6,354
+2025-10-05 12:56:17,217 - INFO -    📊 Sample data rows: 6354
+2025-10-05 12:56:18,116 - INFO - ✅ Created Excel file: core_client_holding.xlsx
+2025-10-05 12:56:20,885 - INFO - ✅ Applied formatting to core_client_holding.xlsx
+2025-10-05 12:56:20,885 - INFO - 📋 Processing core.client_portfolio...
+2025-10-05 12:56:20,894 - INFO -    📈 Row count: 1,169
+2025-10-05 12:56:20,911 - INFO -    📊 Sample data rows: 1169
+2025-10-05 12:56:21,124 - INFO - ✅ Created Excel file: core_client_portfolio.xlsx
+2025-10-05 12:56:21,661 - INFO - ✅ Applied formatting to core_client_portfolio.xlsx
+2025-10-05 12:56:21,661 - INFO - 📋 Processing core.client_transaction...
+2025-10-05 12:56:21,670 - INFO -    📈 Row count: 8,033
+2025-10-05 12:56:21,707 - INFO -    📊 Sample data rows: 8033
+2025-10-05 12:56:22,444 - INFO - ✅ Created Excel file: core_client_transaction.xlsx
+2025-10-05 12:56:24,835 - INFO - ✅ Applied formatting to core_client_transaction.xlsx
+2025-10-05 12:56:24,835 - INFO - 📋 Processing core.communication_log...
+2025-10-05 12:56:24,842 - INFO -    📈 Row count: 95
+2025-10-05 12:56:24,845 - INFO -    📊 Sample data rows: 95
+2025-10-05 12:56:24,858 - INFO - ✅ Created Excel file: core_communication_log.xlsx
+2025-10-05 12:56:24,889 - INFO - ✅ Applied formatting to core_communication_log.xlsx
+2025-10-05 12:56:24,889 - INFO - 📋 Processing core.engagement_analysis...
+2025-10-05 12:56:24,894 - INFO -    📈 Row count: 3
+2025-10-05 12:56:24,894 - INFO -    📊 Sample data rows: 3
+2025-10-05 12:56:24,899 - INFO - ✅ Created Excel file: core_engagement_analysis.xlsx
+2025-10-05 12:56:24,905 - INFO - ✅ Applied formatting to core_engagement_analysis.xlsx
+2025-10-05 12:56:24,905 - INFO - 📋 Processing core.epb_security...
+2025-10-05 12:56:24,911 - INFO -    📈 Row count: 5,305
+2025-10-05 12:56:24,923 - INFO -    📊 Sample data rows: 5305
+2025-10-05 12:56:25,168 - INFO - ✅ Created Excel file: core_epb_security.xlsx
+2025-10-05 12:56:26,070 - INFO - ✅ Applied formatting to core_epb_security.xlsx
+2025-10-05 12:56:26,070 - INFO - 📋 Processing core.followup...
+2025-10-05 12:56:26,076 - INFO -    📈 Row count: 45
+2025-10-05 12:56:26,077 - INFO -    📊 Sample data rows: 45
+2025-10-05 12:56:26,084 - INFO - ✅ Created Excel file: core_followup.xlsx
+2025-10-05 12:56:26,100 - INFO - ✅ Applied formatting to core_followup.xlsx
+2025-10-05 12:56:26,100 - INFO - 📋 Processing core.fund_segment_benchmarks...
+2025-10-05 12:56:26,105 - INFO -    📈 Row count: 5
+2025-10-05 12:56:26,106 - INFO -    📊 Sample data rows: 5
+2025-10-05 12:56:26,110 - INFO - ✅ Created Excel file: core_fund_segment_benchmarks.xlsx
+2025-10-05 12:56:26,118 - INFO - ✅ Applied formatting to core_fund_segment_benchmarks.xlsx
+2025-10-05 12:56:26,118 - INFO - 📋 Processing core.funds...
+2025-10-05 12:56:26,126 - INFO -    📈 Row count: 121
+2025-10-05 12:56:26,129 - INFO -    📊 Sample data rows: 121
+2025-10-05 12:56:26,151 - INFO - ✅ Created Excel file: core_funds.xlsx
+2025-10-05 12:56:26,208 - INFO - ✅ Applied formatting to core_funds.xlsx
+2025-10-05 12:56:26,208 - INFO - 📋 Processing core.risk_level_definition...
+2025-10-05 12:56:26,212 - INFO -    📈 Row count: 6
+2025-10-05 12:56:26,213 - INFO -    📊 Sample data rows: 6
+2025-10-05 12:56:26,218 - INFO - ✅ Created Excel file: core_risk_level_definition.xlsx
+2025-10-05 12:56:26,225 - INFO - ✅ Applied formatting to core_risk_level_definition.xlsx
+2025-10-05 12:56:26,225 - INFO - 📋 Processing core.rm_portfolio...
+2025-10-05 12:56:26,233 - INFO -    📈 Row count: 47
+2025-10-05 12:56:26,234 - INFO -    📊 Sample data rows: 47
+2025-10-05 12:56:26,249 - INFO - ✅ Created Excel file: core_rm_portfolio.xlsx
+2025-10-05 12:56:26,295 - INFO - ✅ Applied formatting to core_rm_portfolio.xlsx
+2025-10-05 12:56:26,295 - INFO - 📋 Processing core.security_state...
+2025-10-05 12:56:26,303 - INFO -    📈 Row count: 5,207
+2025-10-05 12:56:26,321 - INFO -    📊 Sample data rows: 5207
+2025-10-05 12:56:26,684 - INFO - ✅ Created Excel file: core_security_state.xlsx
+2025-10-05 12:56:27,830 - INFO - ✅ Applied formatting to core_security_state.xlsx
+2025-10-05 12:56:27,830 - INFO - 📋 Processing core.security_type...
+2025-10-05 12:56:27,837 - INFO -    📈 Row count: 4,803
+2025-10-05 12:56:27,866 - INFO -    📊 Sample data rows: 4803
+2025-10-05 12:56:28,386 - INFO - ✅ Created Excel file: core_security_type.xlsx
+2025-10-05 12:56:30,160 - INFO - ✅ Applied formatting to core_security_type.xlsx
+2025-10-05 12:56:30,160 - INFO - 📋 Processing core.since_inception_benchmark_balanced...
+2025-10-05 12:56:30,167 - INFO -    📈 Row count: 4,080
+2025-10-05 12:56:30,181 - INFO -    📊 Sample data rows: 4080
+2025-10-05 12:56:30,341 - ERROR - ❌ Failed to create Excel file core_since_inception_benchmark_balanced.xlsx: Excel does not support datetimes with timezones. Please ensure that datetimes are timezone unaware before writing to Excel.
+2025-10-05 12:56:30,341 - INFO - 📋 Processing core.since_inception_benchmark_conservative...
+2025-10-05 12:56:30,346 - INFO -    📈 Row count: 4,080
+2025-10-05 12:56:30,360 - INFO -    📊 Sample data rows: 4080
+2025-10-05 12:56:30,485 - ERROR - ❌ Failed to create Excel file core_since_inception_benchmark_conservative.xlsx: Excel does not support datetimes with timezones. Please ensure that datetimes are timezone unaware before writing to Excel.
+2025-10-05 12:56:30,485 - INFO - 📋 Processing core.since_inception_benchmark_equity...
+2025-10-05 12:56:30,496 - INFO -    📈 Row count: 4,080
+2025-10-05 12:56:30,513 - INFO -    📊 Sample data rows: 4080
+2025-10-05 12:56:30,652 - ERROR - ❌ Failed to create Excel file core_since_inception_benchmark_equity.xlsx: Excel does not support datetimes with timezones. Please ensure that datetimes are timezone unaware before writing to Excel.
+2025-10-05 12:56:30,652 - INFO - 📋 Processing core.since_inception_benchmark_fixed_income...
+2025-10-05 12:56:30,659 - INFO -    📈 Row count: 4,080
+2025-10-05 12:56:30,671 - INFO -    📊 Sample data rows: 4080
+2025-10-05 12:56:30,793 - ERROR - ❌ Failed to create Excel file core_since_inception_benchmark_fixed_income.xlsx: Excel does not support datetimes with timezones. Please ensure that datetimes are timezone unaware before writing to Excel.
+2025-10-05 12:56:30,793 - INFO - 📋 Processing core.since_inception_benchmark_growth...
+2025-10-05 12:56:30,801 - INFO -    📈 Row count: 4,080
+2025-10-05 12:56:30,815 - INFO -    📊 Sample data rows: 4080
+2025-10-05 12:56:30,952 - ERROR - ❌ Failed to create Excel file core_since_inception_benchmark_growth.xlsx: Excel does not support datetimes with timezones. Please ensure that datetimes are timezone unaware before writing to Excel.
+2025-10-05 12:56:30,952 - INFO - 📋 Processing core.t_client_context...
+2025-10-05 12:56:30,959 - INFO -    📈 Row count: 2,822
+2025-10-05 12:56:30,992 - INFO -    📊 Sample data rows: 2822
+2025-10-05 12:56:31,548 - INFO - ✅ Created Excel file: core_t_client_context.xlsx
+2025-10-05 12:56:33,269 - INFO - ✅ Applied formatting to core_t_client_context.xlsx
+2025-10-05 12:56:33,269 - INFO - 📋 Processing core.t_equity_focus...
+2025-10-05 12:56:33,276 - INFO -    📈 Row count: 230
+2025-10-05 12:56:33,279 - INFO -    📊 Sample data rows: 230
+2025-10-05 12:56:33,316 - INFO - ✅ Created Excel file: core_t_equity_focus.xlsx
+2025-10-05 12:56:33,475 - INFO - ✅ Applied formatting to core_t_equity_focus.xlsx
+2025-10-05 12:56:33,475 - INFO - 📋 Processing core.unstructured_documents...
+2025-10-05 12:56:33,482 - INFO -    📈 Row count: 159
+2025-10-05 12:56:33,499 - INFO -    📊 Sample data rows: 159
+2025-10-05 12:56:33,562 - INFO - ✅ Created Excel file: core_unstructured_documents.xlsx
+2025-10-05 12:56:33,647 - INFO - ✅ Applied formatting to core_unstructured_documents.xlsx
+2025-10-05 12:56:33,647 - INFO - 📋 Processing core.user_client_join_communications_log...
+2025-10-05 12:56:33,652 - INFO -    📈 Row count: 46
+2025-10-05 12:56:33,652 - INFO -    📊 Sample data rows: 46
+2025-10-05 12:56:33,657 - INFO - ✅ Created Excel file: core_user_client_join_communications_log.xlsx
+2025-10-05 12:56:33,666 - INFO - ✅ Applied formatting to core_user_client_join_communications_log.xlsx
+2025-10-05 12:56:33,666 - INFO - 📋 Processing core.user_client_join_engagement_analysis...
+2025-10-05 12:56:33,670 - INFO -    📈 Row count: 0
+2025-10-05 12:56:33,670 - INFO -    📊 Sample data rows: 0
+2025-10-05 12:56:33,674 - INFO - ✅ Created Excel file: core_user_client_join_engagement_analysis.xlsx
+2025-10-05 12:56:33,679 - INFO - ✅ Applied formatting to core_user_client_join_engagement_analysis.xlsx
+2025-10-05 12:56:33,679 - INFO - 📋 Processing core.user_join_client_context...
+2025-10-05 12:56:33,685 - INFO -    📈 Row count: 3,568
+2025-10-05 12:56:33,693 - INFO -    📊 Sample data rows: 3568
+2025-10-05 12:56:33,795 - INFO - ✅ Created Excel file: core_user_join_client_context.xlsx
+2025-10-05 12:56:34,158 - INFO - ✅ Applied formatting to core_user_join_client_context.xlsx
+2025-10-05 12:56:34,158 - INFO - 📋 Processing core.users...
+2025-10-05 12:56:34,183 - INFO -    📈 Row count: 50
+2025-10-05 12:56:34,184 - INFO -    📊 Sample data rows: 50
+2025-10-05 12:56:34,189 - INFO - ✅ Created Excel file: core_users.xlsx
+2025-10-05 12:56:34,199 - INFO - ✅ Applied formatting to core_users.xlsx
+2025-10-05 12:56:34,259 - INFO - ✅ Applied formatting to 00_DATABASE_EXPORT_SUMMARY.xlsx
+2025-10-05 12:56:34,259 - INFO - 📋 Created summary report: 00_DATABASE_EXPORT_SUMMARY.xlsx
+2025-10-05 12:56:34,259 - INFO - ============================================================
+2025-10-05 12:56:34,259 - INFO - ✅ Export completed!
+2025-10-05 12:56:34,259 - INFO -    📊 Total tables: 32
+2025-10-05 12:56:34,259 - INFO -    ✅ Successfully exported: 27
+2025-10-05 12:56:34,259 - INFO -    ❌ Failed exports: 5
+2025-10-05 12:56:34,259 - INFO -    📁 Files saved to: /Users/anindyachakrabarty/Desktop/Application/Client Room/Data
+2025-10-05 12:56:34,259 - INFO - 🔌 Database connection closed

@@ -1,0 +1,9 @@
+{
+  "client_id": "56HPKQK",
+  "risk_appetite": "R5",
+  "current_allocation": "MULTI ASSET: 100%",
+  "target_allocation": "Money Market: 21.7%, Fixed Income: 4.3%, Equities: 21.7%, Alternative Investments: 52.1%",
+  "allocation_gaps": "SHORTFALLS: Alternative Investments (-52.1%), Equities (-21.7%), Money Market (-21.7%). EXCESS: MULTI ASSET (100%)",
+  "total_rebalancing_amount_aed": "594792.21",
+  "Agent_Recommends": "Sell the entire current allocation in MULTI ASSET. Allocate the proceeds into Alternative Investments (52.1%), Equities (21.7%), and Money Market (21.7%) to align with the growth-oriented risk profile."
+}

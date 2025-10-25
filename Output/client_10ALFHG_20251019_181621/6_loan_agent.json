@@ -1,0 +1,21 @@
+{
+  "client_id": "10ALFHG",
+  "RM_id": null,
+  "annual_income_aed": "0",
+  "total_outstanding_aed": "-170091.47",
+  "debt_to_income_ratio": "0",
+  "estimated_lending_capacity_aed": "0",
+  "aecb_alerts_count": 10,
+  "aecb_summary": "10 alerts: multiple credit limit changes (Credit Cards), one personal loan; related to vehicle financing.",
+  "product_recommendations": [
+    {
+      "product_name": "Personal Loan - Standard",
+      "justification": "This personal loan offers flexible options for managing existing obligations, such as the outstanding amount of AED 170,091.47 for a Personal Installment Loan, and is suitable given the client's risk level and credit segment."
+    },
+    {
+      "product_name": "Auto Loan - Used Vehicle",
+      "justification": "The client holds credit alerts pertaining to vehicle financing. This product aligns with the client's credit risk profile and segment, providing an opportunity to consolidate or restructure auto-related credit obligations."
+    }
+  ],
+  "Agent_Recommends": "The client has a low-income profile with a considerable depreciation of CASA balances and an outstanding personal loan. Considering AECB alerts related to credit limits and vehicle financing, top priority should be given to products supporting financial consolidation and reducing liabilities, such as a personal loan restructuring or vehicle loan refinancing."
+}
