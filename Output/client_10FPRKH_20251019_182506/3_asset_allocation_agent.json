@@ -1,9 +1,0 @@
-{
-  "client_id": "10FPRKH",
-  "risk_appetite": "R4",
-  "current_allocation": "0% across all asset classes.",
-  "target_allocation": "25% in Money Market, 15% in Fixed Income, 15% in Equities, 45% in Alternative Investments.",
-  "allocation_gaps": "Significant under-allocation in all asset classes with deviations ranging from 15% in Equities and Fixed Income to 45% in Alternative Investments.",
-  "total_rebalancing_amount_aed": "23647.53",
-  "Agent_Recommends": "It is recommended to allocate AED 23,647.53 from CASA into investments aligned with the client's medium risk appetite and significant deviations across asset classes. Diversify aggressively across Money Market, Fixed Income, Equities, and Alternative Investments to align with target allocations while addressing liquidity needs efficiently."
-}

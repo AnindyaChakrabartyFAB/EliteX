@@ -1,9 +1,0 @@
-{
-  "client_id": "58GPXLQ",
-  "risk_appetite": "R4",
-  "current_allocation": "100% Fixed Income",
-  "target_allocation": "25% Money Market, 15% Fixed Income, 15% Equities, 45% Alternative Investments",
-  "allocation_gaps": "Fixed Income deviates by +100%, Money Market by -25%, Alternative Investments by -45%, Equities by -15%.",
-  "total_rebalancing_amount_aed": "11887242.1",
-  "Agent_Recommends": "Client's portfolio is heavily concentrated in one asset class. It is advisable to shift AED 11,887,242.1 by reducing fixed income exposure and acquiring positions in equities, alternatives, and money market to align with the targeted balanced allocation."
-}

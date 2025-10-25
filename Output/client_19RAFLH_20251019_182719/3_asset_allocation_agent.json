@@ -1,9 +1,0 @@
-{
-  "client_id": "19RAFLH",
-  "risk_appetite": "R4",
-  "current_allocation": "No investments; only CASA balance.",
-  "target_allocation": "45% Alternative Investments, 25% Money Market, 15% Equities, 15% Fixed Income.",
-  "allocation_gaps": "45% lacking in Alternative Investments, 25% missing in Money Market, 15% underspending in both Equities and Fixed Income.",
-  "total_rebalancing_amount_aed": "0.0",
-  "Agent_Recommends": "The client currently lacks investment alignment with a balanced R4 portfolio. Immediate action involves diversifying towards the target asset classes, prioritizing funding for alternative investments and money markets to capitalize on moderate risk tolerance."
-}

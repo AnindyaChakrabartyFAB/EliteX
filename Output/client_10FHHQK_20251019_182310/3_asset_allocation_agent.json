@@ -1,9 +1,0 @@
-{
-  "client_id": "10FHHQK",
-  "risk_appetite": "R4",
-  "current_allocation": "No current investment allocations.",
-  "target_allocation": "25% Money Market, 15% Fixed Income, 15% Equities, 45% Alternative Investments.",
-  "allocation_gaps": "- Alternative Investments: -45%.\n- Money Market: -25%.\n- Equities: -15%.\n- Fixed Income: -15%.",
-  "total_rebalancing_amount_aed": "0",
-  "Agent_Recommends": "Initiate allocation adjustments towards Money Market, Fixed Income, Equities, and Alternative Investments to close significant gaps. No current funds available; additional investment required to achieve target weights."
-}

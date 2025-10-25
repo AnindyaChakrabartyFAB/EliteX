@@ -1,9 +1,0 @@
-{
-  "client_id": "10APAAP",
-  "risk_appetite": "R4",
-  "current_allocation": "None",
-  "target_allocation": "Money Market: 25%, Fixed Income: 15%, Equities: 15%, Alternative Investments: 45%",
-  "allocation_gaps": "Significant underallocation in all categories: Money Market (-25%), Fixed Income (-15%), Equities (-15%), and Alternative Investments (-45%).",
-  "total_rebalancing_amount_aed": "0",
-  "Agent_Recommends": "The client currently has no asset allocation despite their moderate risk appetite (R4) and strong income profile, highlighting an opportunity for full portfolio construction. Recommendations include prioritizing fund deployment into both higher growth assets like Alternative Investments and Equities, and stable categories such as Money Market and Fixed Income to match the target allocation. "
-}

@@ -1,9 +1,0 @@
-{
-  "client_id": "10ALFHG",
-  "risk_appetite": "R4",
-  "current_allocation": "No current allocations identified.",
-  "target_allocation": "Money Market: 25.0%, Fixed Income: 15.0%, Equities: 15.0%, Alternative Investments: 45.0%.",
-  "allocation_gaps": "Significant gaps exist: Equities (-15%), Fixed Income (-15%), Alternative Investments (-45%), Money Market (-25%).",
-  "total_rebalancing_amount_aed": "0",
-  "Agent_Recommends": "With no current allocations and a risk appetite of R4, allocating in target proportions to respective asset classes is recommended to align with the client's investment strategy and financial stability goals."
-}
