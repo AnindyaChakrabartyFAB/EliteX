@@ -1,4 +1,4 @@
-# EliteX V8 - AI-Powered Wealth Management System
+# EliteX V8 - AI-Powered Elite Client Relation Management System 
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
